@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./web:/usr/share/nginx/html
+
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'Erronka2_Rugby'
+      MYSQL_USER: 'admin'
+      MYSQL_PASSWORD: '1234'
+      MYSQL_ROOT_PASSWORD: '1234'
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./db_data:/var/lib/mysql

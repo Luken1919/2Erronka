@@ -1,0 +1,108 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos para el título del encabezado */
+  header h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para la navegación en el encabezado */
+  header nav {
+    float: right;
+  }
+  
+  /* Estilos para la lista no ordenada dentro de la navegación */
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para los elementos de la lista dentro de la navegación */
+  header nav ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  /* Estilos para los enlaces dentro de la lista de navegación */
+  header nav ul li a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /* Estilos para los enlaces al pasar el cursor sobre ellos */
+  header nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  /* Estilos para los submenús desplegables */
+  header nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border: 1px solid red;
+    padding: 10px;
+  }
+  
+  /* Estilos para mostrar los submenús al pasar el cursor sobre los elementos de la lista */
+  header nav ul li:hover ul {
+    display: block;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilos para la sección de imágenes */
+  section.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilos para las imágenes dentro de la sección de imágenes */
+  section.imagenes img {
+    width: 25%;
+    margin: 5px;
+  }
+  
+  /* Estilos para la sección de texto */
+  section.texto {
+    text-align: center;
+  }
+  
+  /* Estilos para el título dentro de la sección de texto */
+  section.texto h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para los párrafos dentro de la sección de texto */
+  section.texto p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
