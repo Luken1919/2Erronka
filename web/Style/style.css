@@ -116,4 +116,31 @@ body {
     color: aliceblue;
     
     margin-left: 735px;
-  }
+
+/* Estilos para la sección de historia */
+.historia {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Estilos para el contenedor del texto en el lado izquierdo */
+.texto-izquierda {
+  flex: 1; /* Toma el espacio restante */
+  max-width: 60%; /* Ajusta según tus preferencias */
+}
+
+/* Estilos para el contenedor de imágenes en el lado derecho */
+.imagenes-derecha {
+  flex: 1; /* Toma el espacio restante */
+  max-width: 35%; /* Ajusta según tus preferencias */
+}
+
+/* Estilos para las imágenes dentro del contenedor de imágenes */
+.imagenes-derecha img {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px; /* Ajusta según tus preferencias */
+}
+  
