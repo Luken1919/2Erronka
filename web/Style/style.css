@@ -10,8 +10,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    background-color: #000;
-    color: #fff;
+    background-color: #2874A6;
+    color: #2874A6;
     padding: 20px;
   }
   
@@ -41,21 +41,21 @@ body {
   
   /* Estilos para los enlaces dentro de la lista de navegación */
   header nav ul li a {
-    color: red;
+    color: white;
     text-decoration: none;
   }
   
   /* Estilos para los enlaces al pasar el cursor sobre ellos */
   header nav ul li a:hover {
-    color: #ccc;
+    color: black;
   }
   
   /* Estilos para los submenús desplegables */
   header nav ul li ul {
     display: none;
     position: absolute;
-    background-color: black;
-    border: 1px solid red;
+    background-color: #2874A6;
+    border: 1px solid #1A5276;
     padding: 10px;
   }
   
