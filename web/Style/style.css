@@ -116,7 +116,7 @@ body {
     color: aliceblue;
     
     margin-left: 735px;
-
+  }
 /* Estilos para la sección de historia */
 .historia {
   display: flex;
@@ -143,4 +143,3 @@ body {
   display: block;
   margin-bottom: 10px; /* Ajusta según tus preferencias */
 }
-
