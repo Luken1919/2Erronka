@@ -22,7 +22,7 @@ header {
   align-items: center;
   justify-content: space-between; 
   background-color: #184563;
-  padding: 20px;
+  padding: -20px;
 }
 
 /* Estilos para el título del encabezado */
@@ -138,7 +138,11 @@ flex: 1; /* Toma el espacio restante */
 max-width: 60%; /* Ajusta según tus preferencias */
 background-color: #fff;
 }
-
+.texto-izquierda {
+  flex: 1; /* Toma el espacio restante */
+  max-width: 60%; /* Ajusta según tus preferencias */
+  background-color: #fff;
+  }
 /* Estilos para el contenedor de imágenes en el lado derecho */
 .imagenes-derecha {
 flex: 1; /* Toma el espacio restante */
@@ -214,4 +218,12 @@ margin-top: -30px;
 
 .bodytituloa{
   background-color: #22597e;
+}
+
+.titulohistoria{
+  font-size: 50px;
+  text-align: center;
+  font-family: Copperplate;
+  letter-spacing: -1px;
+  color: white;
 }
