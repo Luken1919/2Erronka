@@ -66,37 +66,35 @@ body {
   
   /* Estilos para el contenido principal */
   main {
-    padding: 20px;
+    padding: 0px;
+    background-color: black;
   }
   
   /* Estilos para la sección de imágenes */
-  section.imagenes {
+  .irudiak {
     display: flex;
     flex-wrap: wrap;
   }
   
   /* Estilos para las imágenes dentro de la sección de imágenes */
-  section.imagenes img {
-    width: 25%;
-    margin: 5px;
+  .irudiak img {
+    width: 50%;
+    opacity: 25%;
   }
   
   /* Estilos para la sección de texto */
-  section.texto {
+  .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
+    background-color: rgba(255,255,255,0,7);
+    color: white;
+    padding: 200px;
+    max-width: 80%;
   }
-  
-  /* Estilos para el título dentro de la sección de texto */
-  section.texto h2 {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Estilos para los párrafos dentro de la sección de texto */
-  section.texto p {
-    margin: 0;
-    padding: 0;
-  }
+
   
   /* Estilos para el pie de página */
   footer {
