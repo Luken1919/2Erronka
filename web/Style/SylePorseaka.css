@@ -105,8 +105,11 @@ body {
   
   .copak {
     text-align: center;
-    
   }
+
+  .copak img {
+    margin-right: 100px; /* Ajusta el valor según la separación deseada */
+}
 
   .mainblack{
     background-color: #000;
@@ -114,31 +117,96 @@ body {
 
   .letratxuria{
     color: aliceblue;
-    margin-left: 735px;
+    font-size: 20px; /* Tamaño de la letra en píxeles */
+    font-family: Verdana;
+    display: flex;
+    margin-top: -40px;
   }
+
+
+
+.bat{
+    margin-left: 630px;
+    
+}
+
+.bi{
+    margin-left: 175px;
+}
+
+.hiru{
+    margin-left: 130px;
+}
+
+.marrak{
+    color: aliceblue;
+    font-size: 50px; /* Tamaño de la letra en píxeles */
+    font-family: Verdana;
+    display: flex;
+    margin-top: -60px;
+  }
+
+.marrabat{
+    margin-left: 640px;
+    
+}
+
+.marrabi{
+    margin-left: 230px;
+}
+
+.marrahiru{
+    margin-left: 235px;
+}
+
+.zenbakiak{
+    color: aliceblue;
+    font-size: 40px; /* Tamaño de la letra en píxeles */
+    font-family: Impact;
+    display: flex;
+    margin-top: -100px;
+  }
+
+  .zbkbat{
+    margin-left: 642px;
+    
+}
+
+.zbkbi{
+    margin-left: 237px;
+}
+
+.zbkhiru{
+    margin-left: 237px;
+}
+
 /* Estilos para la sección de historia */
 .historia {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* Estilos para el contenedor del texto en el lado izquierdo */
+  .texto-izquierda {
+    flex: 1; /* Toma el espacio restante */
+    max-width: 60%; /* Ajusta según tus preferencias */
+  }
+  
+  /* Estilos para el contenedor de imágenes en el lado derecho */
+  .imagenes-derecha {
+    flex: 1; /* Toma el espacio restante */
+    max-width: 35%; /* Ajusta según tus preferencias */
+  }
+  
+  /* Estilos para las imágenes dentro del contenedor de imágenes */
+  .imagenes-derecha img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px; /* Ajusta según tus preferencias */
+  }
 
-/* Estilos para el contenedor del texto en el lado izquierdo */
-.texto-izquierda {
-  flex: 1; /* Toma el espacio restante */
-  max-width: 60%; /* Ajusta según tus preferencias */
-}
-
-/* Estilos para el contenedor de imágenes en el lado derecho */
-.imagenes-derecha {
-  flex: 1; /* Toma el espacio restante */
-  max-width: 35%; /* Ajusta según tus preferencias */
-}
-
-/* Estilos para las imágenes dentro del contenedor de imágenes */
-.imagenes-derecha img {
-  width: 100%;
-  display: block;
-  margin-bottom: 10px; /* Ajusta según tus preferencias */
-}
+  .espazioak{
+    margin: 122px;
+  }
