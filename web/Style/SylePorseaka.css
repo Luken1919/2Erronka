@@ -3,6 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .bodytituloa{
+    background-color: #22597e;
   }
   
   /* Estilos para el encabezado */
@@ -10,8 +16,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    background-color: #000;
-    color: #fff;
+    background-color: #184563;
+    color: #2874A6;
     padding: 20px;
   }
   
@@ -41,21 +47,21 @@ body {
   
   /* Estilos para los enlaces dentro de la lista de navegación */
   header nav ul li a {
-    color: red;
+    color: white;
     text-decoration: none;
   }
   
   /* Estilos para los enlaces al pasar el cursor sobre ellos */
   header nav ul li a:hover {
-    color: #ccc;
+    color: black;
   }
   
   /* Estilos para los submenús desplegables */
   header nav ul li ul {
     display: none;
     position: absolute;
-    background-color: black;
-    border: 1px solid red;
+    background-color: #2874A6;
+    border: 1px solid #1A5276;
     padding: 10px;
   }
   
@@ -66,14 +72,14 @@ body {
   
   /* Estilos para el contenido principal */
   main {
-    padding: 2px;
-    background-color: black;
+    padding: 0px;
   }
   
   /* Estilos para la sección de imágenes */
   .irudiak {
     display: flex;
     flex-wrap: wrap;
+    background-color: black;
   }
   
   /* Estilos para las imágenes dentro de la sección de imágenes */
@@ -101,6 +107,7 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-top: auto;
   }
   
   .copak {
@@ -112,101 +119,53 @@ body {
 }
 
   .mainblack{
-    background-color: #000;
-  }
-
-  .letratxuria{
-    color: aliceblue;
-    font-size: 20px; /* Tamaño de la letra en píxeles */
-    font-family: Verdana;
+    background-color: #22597e;
+    color: white;
     display: flex;
-    margin-top: -40px;
+    margin-top: 50px;
   }
 
-
-
-.bat{
-    margin-left: 630px;
-    
-}
-
-.bi{
-    margin-left: 175px;
-}
-
-.hiru{
-    margin-left: 130px;
-}
-
-.marrak{
-    color: aliceblue;
-    font-size: 50px; /* Tamaño de la letra en píxeles */
-    font-family: Verdana;
-    display: flex;
-    margin-top: -60px;
-  }
-
-.marrabat{
-    margin-left: 640px;
-    
-}
-
-.marrabi{
-    margin-left: 230px;
-}
-
-.marrahiru{
-    margin-left: 235px;
-}
-
-.zenbakiak{
-    color: aliceblue;
+.content{
+    flex-grow: 1;
+    margin: 10px;
+    text-align: center;
     font-size: 40px; /* Tamaño de la letra en píxeles */
     font-family: Impact;
-    display: flex;
-    margin-top: -100px;
-  }
-
-  .zbkbat{
-    margin-left: 642px;
-    
 }
 
-.zbkbi{
-    margin-left: 237px;
+.marra {
+    font-size: 70px; /* Tamaño de la letra en píxeles */
+    margin-top: -50px;
+}
+.marrabi {
+    font-size: 70px; /* Tamaño de la letra en píxeles */
+    margin-top: -30px;
+}
+.zbk {
+    font-size: 60px; /* Tamaño de la letra en píxeles */
+    margin-top: -80px;
+}
+.letra {
+    font-size: 40px; /* Tamaño de la letra en píxeles */
+    margin-top: -50px;
 }
 
-.zbkhiru{
-    margin-left: 237px;
+.tituloa{
+  font-size: 50px;
+  text-align: center;
+  font-family: Copperplate;
+  letter-spacing: -1px;
 }
 
-/* Estilos para la sección de historia */
-.historia {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-  }
-  
-  /* Estilos para el contenedor del texto en el lado izquierdo */
-  .texto-izquierda {
-    flex: 1; /* Toma el espacio restante */
-    max-width: 60%; /* Ajusta según tus preferencias */
-  }
-  
-  /* Estilos para el contenedor de imágenes en el lado derecho */
-  .imagenes-derecha {
-    flex: 1; /* Toma el espacio restante */
-    max-width: 35%; /* Ajusta según tus preferencias */
-  }
-  
-  /* Estilos para las imágenes dentro del contenedor de imágenes */
-  .imagenes-derecha img {
-    width: 100%;
-    display: block;
-    margin-bottom: 10px; /* Ajusta según tus preferencias */
-  }
+.main{
+  background-color: #22597e;
+  color: white;
 
-  .espazioak{
-    margin: 122px;
-  }
+}
+.linea-horizontal {
+  width: 200px; /* Anchura de la línea */
+  height: 8px; /* Altura de la línea */
+  background-color: rgb(255, 255, 255); /* Color de la línea */
+  margin: 0 auto;
+  margin-top: -30px;
+}
