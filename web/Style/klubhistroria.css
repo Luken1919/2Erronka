@@ -13,7 +13,8 @@ body {
   background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
   background-position: center; /* Alinear la imagen al centro */
   background-color:  rgba(0, 0, 0, 0.5);
-  padding: 10%;
+ 
+  
 }
 /* Estilos para el encabezado */
 header {
@@ -122,48 +123,46 @@ footer {
   text-align: center;
 }
 
-.texto-izquierda, .imagenes-derecha {
-  margin: 0 auto;
-  max-width: 800px; /* Ancho máximo para centrar los elementos */
-}
-
-.texto-izquierda h3 {
-  text-align: left; /* Alinea el título 'Sorkuntza' al centro */
-  font-size: 20px;
-  font-family: "Verdana";
-}
-.texto-izquierda p {
-  font-size: 20px;
- font-family: "Verdana";
-}
-.imagenes-derecha img {
-  display: block;
-  margin: 0 auto; /* Centra horizontalmente la imagen */
-  max-width: 100%; /* Ajusta el ancho máximo de la imagen */
-}
-
 /* Estilos para la sección de historia */
 .historia {
-padding: 40px;
-text-align: left;
-align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding: 20px;
+
 }
 
+/* Estilos para el contenedor del texto en el lado izquierdo */
 .texto-izquierda {
+flex: 1; /* Toma el espacio restante */
+max-width: 60%; /* Ajusta según tus preferencias */
+background-color: #fff;
+}
+.texto-izquierda {
+  flex: 1; /* Toma el espacio restante */
   max-width: 60%; /* Ajusta según tus preferencias */
+  background-color: #fff;
   }
-
 /* Estilos para el contenedor de imágenes en el lado derecho */
 .imagenes-derecha {
+flex: 1; /* Toma el espacio restante */
 max-width: 35%; /* Ajusta según tus preferencias */
 }
 
 /* Estilos para las imágenes dentro del contenedor de imágenes */
 .imagenes-derecha img {
 width: 100%;
-margin-bottom: 60px; /* Ajusta según tus preferencias */
+display: block;
+margin-bottom: 10px; /* Ajusta según tus preferencias */
 }
 
+.copak {
+  text-align: center;
+}
+
+.copak img {
+  margin-right: 100px; /* Ajusta el valor según la separación deseada */
+}
 
 .mainblack{
   background-color: #22597e;
