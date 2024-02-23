@@ -114,15 +114,33 @@ footer {
   text-align: center;
 }
 
+.columna{
+  margin-top: 2%;
+}
 
 .linea-vertical{
   width: 6px; /* Anchura de la línea */
   height: 50px; /* Altura de la línea */
   background-color: rgb(255, 255, 255); /* Color de la línea */
+
+  
 }
 
 
-.columna{
+.alineatu {
   display: flex;
-  
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  text-align: center; /* Centra el texto horizontalmente dentro de los párrafos */
+  font-size: 30px;
+ 
+}
+
+.alineatu p {
+  margin: 0 10px; /* Espacio entre los elementos de texto */
+}
+
+.espacio{
+  color: #22597e;
+  margin-left: 20px;
 }
