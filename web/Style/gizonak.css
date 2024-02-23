@@ -82,6 +82,7 @@ header nav ul li:hover ul {
 .main{
   background-color: #578caf;
   color: rgb(255, 255, 255);
+
   }
 
   .tituloa{
@@ -128,7 +129,7 @@ footer {
 
 .espacio{
   color: #22597e;
-  margin-top:24px;
+  margin-top:13px;
 }
 
 .azpikoa{
@@ -154,14 +155,14 @@ footer {
 .contenido {
   display: flex;
   align-items: center; /* Alinea el contenido verticalmente */
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* Estilos para las líneas verticales */
 .linea-vertical-urdina,
 .linea-vertical-beltza {
-  width: 4px;
-  height: 50px; /* Ajusta la altura de la línea según tu diseño */
+  width: 7px;
+  height: 54px; /* Ajusta la altura de la línea según tu diseño */
 }
 
 .linea-vertical-urdina {
@@ -179,7 +180,7 @@ footer {
 }
 
 h1{
-  margin-left: 16%;
+  margin-left: 10%;
   color: #fff;
 }
 
@@ -187,4 +188,5 @@ h1{
   background-color: #578caf;
   color: rgb(255, 255, 255);
   margin-top: 6%;
+  
   }
