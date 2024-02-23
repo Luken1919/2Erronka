@@ -140,7 +140,7 @@ footer {
 .columna {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 /* Ajustar el espacio entre las columnas */
@@ -180,4 +180,11 @@ footer {
 
 h1{
   margin-left: 16%;
+  color: #fff;
 }
+
+.mainbi{
+  background-color: #578caf;
+  color: rgb(255, 255, 255);
+  margin-top: 6%;
+  }
