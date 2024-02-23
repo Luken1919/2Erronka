@@ -16,12 +16,13 @@ body {
   padding: 10%;
 }
 /* Estilos para el encabezado */
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between; 
   background-color: #184563;
-  padding: -20px;
+  padding: 0;
 }
 
 /* Estilos para el título del encabezado */
@@ -53,6 +54,7 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   padding: 10px;
+  position: relative;
 }
 
 /* Estilos para los enlaces dentro de la lista de navegación */
@@ -72,6 +74,8 @@ header nav ul li a:hover {
 header nav ul li ul {
   display: none;
   position: absolute;
+  top: 100%;
+  left: 0;
   background-color: #6F8CA0;
   border: 1px solid #1A5276;
   padding: 10px;
