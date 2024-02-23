@@ -76,7 +76,6 @@ header nav ul li:hover ul {
 
 /* Estilos para el contenido principal */
 .main{
-  
   background-color: #22597e;
   color: rgb(255, 255, 255);
   }
@@ -93,13 +92,6 @@ header nav ul li:hover ul {
       padding: 10%;
   }
  
-  .mainblack{
-      background-color: #22597e;
-      color: white;
-      display: flex;
-      margin-top: 50px;
-  }
-
 
 
 
@@ -120,4 +112,17 @@ footer {
   margin-top: auto;
   padding: 20px;
   text-align: center;
+}
+
+
+.linea-vertical{
+  width: 6px; /* Anchura de la línea */
+  height: 50px; /* Altura de la línea */
+  background-color: rgb(255, 255, 255); /* Color de la línea */
+}
+
+
+.columna{
+  display: flex;
+  
 }
