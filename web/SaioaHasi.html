@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tolosa Rugby Union</title>
-  <link rel="stylesheet" href="Style/gizonak.css">
+  <title>Tolosa Union Rugby</title>
+  <link rel="stylesheet" href="Style/SaioaHasi.css">
 </head>
-<body class="bodytituloa">
+<body>
   <header>
     <h1><a href="index.html"><img src="Irudiak/logonew.png" width="160" height="160" alt="Mi foto" /></h1>
     <nav>
@@ -26,25 +26,29 @@
             <li><a href="#">Sub 16</a></li>
           </ul>
         </li>
-        <li><a href="SaioaHasi.html">Saioa Hasi/Erregistratu</a></li>
+        <li><a href="#">Bazkide bihurtu</a></li>
       </ul>
     </nav>
   </header>
-  <main class="main">
-
-    <div class="tituloa">
-      <p><b>1.TALDEA:<br>GIZONAK</b></p>
-      <div class="linea-horizontal"></div>
-    </div>
-
-    <main class="mainblack">
-
-      
+  <main>
+    <div class="container">
+        <form class="form-login" action="#" method="POST">
+          <h2>Saioa Hasi</h2>
+          <div class="form-group">
+            <label for="username">Erabiltzailea:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Pasahitza:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <button type="submit">Saioa Hasi</button>
+        </form>
+        <p>Ez duzu konturik egin klik hemen? <a href="Erregistratu.html">Erregistratu hemen </a></p>
+      </div>
   </main>
-
-</main>
   <footer>
-    <p>Copyright &copy; 2023 Tolosa Rugby Union</p>
+    <p>Copyright &copy; 2024 Tolosa Rugby Union</p>
   </footer>
 </body>
 </html>
