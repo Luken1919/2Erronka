@@ -110,6 +110,7 @@ body {
         text-align: center;
         font-size: 40px; /* Tamaño de la letra en píxeles */
         font-family: Impact;
+        width: 50%;
     }
       
     .marra {
@@ -131,6 +132,14 @@ body {
         font-size: 40px; /* Tamaño de la letra en píxeles */
         margin-top: -50px;
     }
+
+    .parrafo {
+      font-size: 20px; /* Tamaño de la letra en píxeles */
+      margin-top: -1px;
+      color: white;
+  }
+
+    
 
   .linea-horizontal {
     width: 200px; /* Anchura de la línea */
