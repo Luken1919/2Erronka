@@ -86,7 +86,7 @@ body {
         text-align: center;
         font-family: Copperplate;
         letter-spacing: -1px;
-        background-image: url('https://estaticos-cdn.prensaiberica.es/clip/caab8e71-7b80-436e-92e1-ce03aacb7389_source-aspect-ratio_default_0.jpg'); /* Ruta de la imagen de fondo */
+        background-image: url('../Irudiak/tituloargazki.jpg'); /* Ruta de la imagen de fondo */
         background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
         background-position: center; /* Alinear la imagen al centro */
         background-color:  rgba(0, 0, 0, 1);
