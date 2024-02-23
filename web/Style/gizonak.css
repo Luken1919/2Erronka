@@ -119,31 +119,8 @@ footer {
   margin-top: 20%;
 }
 
-.columna{
-  margin-top: 2%;
-}
-
-.linea-vertical-urdina{
-  width: 6px; /* Anchura de la línea */
-  height: 60px; /* Altura de la línea */
-  background-color: rgb(27, 13, 223); /* Color de la línea */
-}
-
-.linea-vertical-beltza{
-  width: 6px; /* Anchura de la línea */
-  height: 60px; /* Altura de la línea */
-  background-color: rgb(0, 0, 0); /* Color de la línea */
-}
 
 
-.alineatu {
-  display: flex;
-  justify-content: center; /* Centra los elementos horizontalmente */
-  align-items: left; /* Centra los elementos verticalmente */
-  text-align: center; /* Centra el texto horizontalmente dentro de los párrafos */
-  font-size: 25px;
-  margin-top: 40px;
-}
 
 .alineatu p {
   margin: 0 10px; /* Espacio entre los elementos de texto */
@@ -151,9 +128,56 @@ footer {
 
 .espacio{
   color: #22597e;
-  margin-left: 10px;
+  margin-top:24px;
 }
 
 .azpikoa{
+  font-size: 15px;
+}
+
+
+/* Estilos para las columnas */
+.columna {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+/* Ajustar el espacio entre las columnas */
+.alineatu {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Alinea los elementos en el centro horizontalmente */
+}
+
+/* Estilos para los contenedores de línea y contenido */
+.contenido {
+  display: flex;
+  align-items: center; /* Alinea el contenido verticalmente */
   font-size: 20px;
+}
+
+/* Estilos para las líneas verticales */
+.linea-vertical-urdina,
+.linea-vertical-beltza {
+  width: 4px;
+  height: 50px; /* Ajusta la altura de la línea según tu diseño */
+}
+
+.linea-vertical-urdina {
+  background-color: blue; /* Color de la línea */
+}
+
+.linea-vertical-beltza {
+  background-color: black; /* Color de la línea */
+}
+
+.columnabi {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+h1{
+  margin-left: 16%;
 }
