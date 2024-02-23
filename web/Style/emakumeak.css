@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     background-color: #22597e;
   }
-
+  
   header {
     display: flex;
     align-items: center;
@@ -78,7 +78,7 @@ body {
   .main{
     
     background-color: #22597e;
-    color: white;
+    color: rgb(255, 255, 255);
     }
   
     .tituloa{
@@ -86,48 +86,23 @@ body {
         text-align: center;
         font-family: Copperplate;
         letter-spacing: -1px;
-        background-image: url('../Irudiak/tituloargazki.jpg'); /* Ruta de la imagen de fondo */
+        background-image: url('../Irudiak/emakumek.jpg'); /* Ruta de la imagen de fondo */
         background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
         background-position: center; /* Alinear la imagen al centro */
-        background-color:  rgba(0, 0, 0, 1);
+        background-color:  rgba(0, 0, 0, 10);
         padding: 10%;
     }
-
+   
     .mainblack{
         background-color: #22597e;
         color: white;
         display: flex;
         margin-top: 50px;
     }
-
-    .content{
-        flex-grow: 1;
-        margin: 10px;
-        text-align: center;
-        font-size: 40px; /* Tamaño de la letra en píxeles */
-        font-family: Impact;
-    }
-      
-    .marra {
-        font-size: 70px; /* Tamaño de la letra en píxeles */
-        margin-top: -50px;
-    }
+  
     
-    .marrabi {
-        font-size: 70px; /* Tamaño de la letra en píxeles */
-        margin-top: -30px;
-    }
-
-    .zbk {
-        font-size: 60px; /* Tamaño de la letra en píxeles */
-        margin-top: -80px;
-    }
-
-    .letra {
-        font-size: 40px; /* Tamaño de la letra en píxeles */
-        margin-top: -50px;
-    }
-
+  
+  
   .linea-horizontal {
     width: 200px; /* Anchura de la línea */
     height: 8px; /* Altura de la línea */
@@ -136,7 +111,7 @@ body {
     margin-top: -30px;
     }
     
-
+  
   
   /* Estilos para el pie de página */
   footer {

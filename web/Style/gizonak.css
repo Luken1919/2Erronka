@@ -86,7 +86,7 @@ header nav ul li:hover ul {
       text-align: center;
       font-family: Copperplate;
       letter-spacing: -1px;
-      background-image: url('https://www.iirugby.com/wp-content/uploads/senior-d-vs-filo.jpg'); /* Ruta de la imagen de fondo */
+      background-image: url('../Irudiak/gizonakk.jpg'); /* Ruta de la imagen de fondo */
       background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
       background-position: center; /* Alinear la imagen al centro */
       background-color:  rgba(0, 0, 0, 10);
@@ -100,7 +100,7 @@ header nav ul li:hover ul {
       margin-top: 50px;
   }
 
-  
+
 
 
 .linea-horizontal {
