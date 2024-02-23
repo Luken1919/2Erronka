@@ -116,6 +116,7 @@ footer {
   margin-top: auto;
   padding: 20px;
   text-align: center;
+  margin-top: 20%;
 }
 
 .columna{
@@ -138,10 +139,10 @@ footer {
 .alineatu {
   display: flex;
   justify-content: center; /* Centra los elementos horizontalmente */
-  align-items: center; /* Centra los elementos verticalmente */
+  align-items: left; /* Centra los elementos verticalmente */
   text-align: center; /* Centra el texto horizontalmente dentro de los párrafos */
-  font-size: 30px;
- 
+  font-size: 25px;
+  margin-top: 40px;
 }
 
 .alineatu p {
@@ -150,7 +151,7 @@ footer {
 
 .espacio{
   color: #22597e;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .azpikoa{
