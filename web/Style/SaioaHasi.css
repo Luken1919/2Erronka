@@ -5,9 +5,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #22597e;
   }
-  
+
   header {
     display: flex;
     align-items: center;
@@ -57,7 +56,7 @@ body {
   header nav ul li a:hover {
     color: black;
     padding: 5px;
-    background-color: #4f7088;
+    background-color: #5B7384;
   }
   
   /* Estilos para los submenús desplegables */
@@ -73,45 +72,60 @@ body {
   header nav ul li:hover ul {
     display: block;
   }
+
   
-  /* Estilos para el contenido principal */
-  .main{
-    
-    background-color: #22597e;
-    color: rgb(255, 255, 255);
-    }
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
   
-    .tituloa{
-        font-size: 50px;
-        text-align: center;
-        font-family: Copperplate;
-        letter-spacing: -1px;
-        background-image: url('../Irudiak/emakumek.jpg'); /* Ruta de la imagen de fondo */
-        background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
-        background-position: center; /* Alinear la imagen al centro */
-        background-color:  rgba(0, 0, 0, 10);
-        padding: 10%;
-    }
-   
-    .mainblack{
-        background-color: #22597e;
-        color: white;
-        display: flex;
-        margin-top: 50px;
-    }
+  .form-login {
+    text-align: center;
+  }
   
-    
+  .form-group {
+    margin-bottom: 20px;
+  }
   
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
   
-  .linea-horizontal {
-    width: 200px; /* Anchura de la línea */
-    height: 8px; /* Altura de la línea */
-    background-color: rgb(255, 255, 255); /* Color de la línea */
-    margin: 0 auto;
-    margin-top: -30px;
-    }
-    
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
   
+  button {
+    background-color: #184563;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+
+  }
+  
+  button:hover {
+    background-color: #5B7384;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
   
   /* Estilos para el pie de página */
   footer {
