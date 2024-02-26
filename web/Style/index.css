@@ -112,6 +112,23 @@ body {
     margin-top: -4px;
   }
 
+.kontaktatu{
+  display: flex;
+  text-align: left;
+  
+}
+.kontaktatu img{
+  height: 200px;
+  width: 200px;
+}
+.kontaktatu div img{
+  height: 17px;
+  width: 17px;
+}
+.espaciofoot{
+  margin-left: 10%;
+}
+
   .linea-vertical{
   width: 7px;
   height: 90px; /* Ajusta la altura de la línea según tu diseño */

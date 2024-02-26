@@ -120,6 +120,22 @@ footer {
   margin-top: 20%;
 }
 
+.kontaktatu{
+  display: flex;
+  text-align: left;
+  
+}
+.kontaktatu img{
+  height: 200px;
+  width: 200px;
+}
+.kontaktatu div img{
+  height: 17px;
+  width: 17px;
+}
+.espaciofoot{
+  margin-left: 10%;
+}
 
 
 
