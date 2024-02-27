@@ -9,11 +9,12 @@ body {
 
 }
 .atzekoa{
-  background-image: url('https://e0.365dm.com/20/08/2048x1152/skysports-rugby-union-ball_5067636.jpg?20200814174145'); /* Ruta de la imagen de fondo */
+  background-image: url('../Irudiak/atzekoahistoria.jpg'); /* Ruta de la imagen de fondo */
   background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
   background-position: center; /* Alinear la imagen al centro */
   background-color:  rgba(0, 0, 0, 0.5);
   padding: 10%;
+  width: 100%;
 }
 /* Estilos para el encabezado */
 
@@ -24,53 +25,41 @@ header {
   background-color: #184563;
   padding: 0;
 }
-
-/* Estilos para el título del encabezado */
 header h1 {
   margin: 0;
   padding: 0;
 }
-
 header h1 img{
-  height: 100px;
-  width: 100px;
+  max-height: 100px;
+  max-width: 100px;
 }
 
-/* Estilos para la navegación en el encabezado */
 header nav {
-  float: right;
-  font-size: 20px;
-  z-index: 1;
+  font-size: 16px; /* Ajustado para mejor visualización en móviles */
 }
 
-/* Estilos para la lista no ordenada dentro de la navegación */
 header nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* Estilos para los elementos de la lista dentro de la navegación */
 header nav ul li {
   display: inline-block;
   padding: 10px;
   position: relative;
 }
 
-/* Estilos para los enlaces dentro de la lista de navegación */
 header nav ul li a {
   color: white;
   text-decoration: none;
 }
 
-/* Estilos para los enlaces al pasar el cursor sobre ellos */
 header nav ul li a:hover {
   color: black;
   padding: 5px;
   background-color: #5B7384;
 }
-
-/* Estilos para los submenús desplegables */
 header nav ul li ul {
   display: none;
   position: absolute;
@@ -81,16 +70,17 @@ header nav ul li ul {
   padding: 10px;
 }
 
-/* Estilos para mostrar los submenús al pasar el cursor sobre los elementos de la lista */
 header nav ul li:hover ul {
   display: block;
 }
 
-/* Estilos para el contenido principal */
 main {
-  padding: 0px;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 /* Estilos para la sección de imágenes */
 .irudiak {
   display: flex;
@@ -210,4 +200,40 @@ margin-top: -30px;
   font-family: Copperplate;
   letter-spacing: -1px;
   color: white;
+}
+
+@media (max-width: 768px) {
+  header h1 .kontaktatu img {
+    height: 60px;
+    width: 60px;
+  }
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul li {
+    padding: 5px;
+  }
+  .texto-izquierda, .imagenes-derecha {
+    max-width: 100%;
+  }
+  .texto-izquierda, .imagenes-derecha img {
+    margin-bottom: 30px;
+  }
+  .kontaktatu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .espaciofoot {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
