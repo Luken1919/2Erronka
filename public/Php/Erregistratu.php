@@ -16,23 +16,33 @@ if ($conexion->connect_error) {
 }
 
 // Recibir datos del formulario
-$izena = $_POST['Izena'];
-$abizena = $_POST['abizena'];
-$erabiltzaileIzena = $_POST['Erabiltzailea'];
-$helbideElectronikoa = $_POST['email'];
-$pasahitza = $_POST['Pasahitza'];
+$izena = Garbitu($_POST['Izena']);
+$abizena = Garbitu($_POST['abizena']);
+$erabiltzaileIzena = Garbitu($_POST['Erabiltzailea']);
+$helbideElectronikoa = Garbitu($_POST['email']);
+$pasahitza = Garbitu($_POST['Pasahitza']);
 
 // Query para insertar datos
 $sql = "INSERT INTO Erabiltzailea (Izena, Abizena, ErabiltzaileIzena, HelbideElektronikoa, Pasahitza) 
         VALUES ('$izena', '$abizena', '$erabiltzaileIzena', '$helbideElectronikoa', '$pasahitza')";
 
 if ($conexion->query($sql) === TRUE) {
-    echo "Registro exitoso";
+    header("Location: ../index.html");
+    exit;
 } else {
     echo "Error: " . $sql . "<br>" . $conexion->error;
+    header("Location: ../Erregistratu.html");
 }
 
 // Cerrar conexión
 $conexion->close();
+
+function Garbitu($datos) {
+    $datos = trim($datos); // Eliminar espacios en blanco antes y después de los datos
+    $datos = stripslashes($datos); // Eliminar barras invertidas
+    $datos = htmlspecialchars($datos); // Convertir caracteres especiales en entidades HTML
+    return $datos;
+}
+
 ?>
 
