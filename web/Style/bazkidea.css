@@ -2,13 +2,13 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #518cfa;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    color: #1a40e7;
+    color: #000000;
 }
 
 form {
@@ -44,8 +44,8 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
-    color: #fff;
+    background-color: #201e1e;
+    color: #4e7cfa;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
