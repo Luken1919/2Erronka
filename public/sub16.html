@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tolosa Rugby Union</title>
+  <link rel="stylesheet" href="Style/sub16.css">
+  <link rel="icon" href="Irudiak/logonew.png" type="image/png">
+</head>
+<body class="bodytituloa">
+  <header>
+    <h1><a href="index.html"><img src="Irudiak/logonew.png" width="160" height="160" alt="Mi foto" /></h1>
+    <nav>
+      <ul>
+        <li><a href="Albisteak.html">Taldearen albisteak</a></li>
+        <li><a href="#">Historia</a>
+          <ul>
+            <li><a href="Klubhistoria.html">Klubaren historia</a></li>
+            <li><a href="Tituloak.html">Irabazitako tituluak</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Taldea</a>
+          <ul>
+            <li><a href="gizonak.html">Gizoank</a></li>
+            <li><a href="emakumeak.html">Emakumeak</a></li>
+            <li><a href="sub18.html">Sub 18</a></li>
+            <li><a href="sub16.html">Sub 16</a></li>
+          </ul>
+        </li>
+        <li><a href="SaioaHasi.html">Bazkidetza</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <div class="tituloa">
+      <p><b>SUB16:<br>GIZONAK</b></p>
+      <div class="linea-horizontal"></div>
+    </div>
+    <h1><u>Jokalariak</u></h1>
+    <div class="columna">
+
+      <div>
+        <div class="linea-vertical-urdina"></div>
+        <br>
+        <div class="linea-vertical-beltza"></div>
+        <br>
+        <div class="linea-vertical-urdina"></div>
+      </div>
+
+      <div class="alineatu">
+       
+        <div class="contenido">
+          <p>Ander Agirre<br><span class="azpikoa">Harroin</span></p>
+        </div>
+
+        <div class="espacio"></div>
+        
+        <div class="contenido">
+          <p>Xabier Arriaga<br><span class="azpikoa">Orpokotzaile</span></p>
+        </div>
+
+        <div class="espacio"></div>
+        
+        <div class="contenido">
+          <p>Iker Larrazabal<br><span class="azpikoa">Harroin</span></p>
+        </div>
+
+      </div>
+
+      
+    <div class="columnabi">
+
+      <div>
+        <div class="linea-vertical-beltza"></div>
+        <br>
+        <div class="linea-vertical-urdina"></div>
+        <br>
+        <div class="linea-vertical-beltza"></div>
+      </div>
+
+      <div class="alineatu">
+       
+        <div class="contenido">
+          <p>Unai Ormaetxea<br><span class="azpikoa">Bigarren lerro</span></p>
+        </div>
+
+        <div class="espacio"></div>
+        
+        <div class="contenido">
+          <p>Eneko Elizabe<br><span class="azpikoa">Bigarren lerro</span></p>
+        </div>
+
+        <div class="espacio"></div>
+        
+        <div class="contenido">
+          <p>Aritz Etxeandia<br><span class="azpikoa">Hirugarren lerro hegal</span></p>
+        </div>
+        
+      </div>
+      
+
+  <div class="columnabi">
+
+      <div>
+        <div class="linea-vertical-urdina"></div>
+        <br>
+        <div class="linea-vertical-beltza"></div>
+        <br>
+        <div class="linea-vertical-urdina"></div>
+      </div>
+
+      <div class="alineatu">
+       
+        <div class="contenido">
+          <p>Julen Urrieta<br><span class="azpikoa">Hirugarren lerro hegal</span></p>
+        </div>
+
+        <div class="espacio"></div>
+        
+        <div class="contenido">
+          <p>Aitor Artola<br><span class="azpikoa">Hirugarren lerro erdiko</span></p>
+        </div>
+
+        <div class="espacio"></div>
+        
+        <div class="contenido">
+          <p>Iñigo Mendizabal<br><span class="azpikoa">Uztartze-erdilari</span></p>
+        </div>
+        
+      </div>
+  </div>
+
+      <div class="columnabi">
+
+        <div>
+          <div class="linea-vertical-beltza"></div>
+          <br>
+          <div class="linea-vertical-urdina"></div>
+          <br>
+          <div class="linea-vertical-beltza"></div>
+        </div>
+  
+        <div class="alineatu">
+         
+          <div class="contenido">
+            <p>Mikel Urkizu<br><span class="azpikoa">Joko-zabaltzaile</span></p>
+          </div>
+  
+          <div class="espacio"></div>
+          
+          <div class="contenido">
+            <p>Asir Goikoetxea<br><span class="azpikoa">Hegal</span></p>
+          </div>
+  
+          <div class="espacio"></div>
+          
+          <div class="contenido">
+            <p>Gorka Azkarate<br><span class="azpikoa">Erdiko</span></p>
+          </div>
+          
+        </div>
+      </div>
+        <div class="columnabi">
+
+          <div>
+            <div class="linea-vertical-urdina"></div>
+            <br>
+            <div class="linea-vertical-beltza"></div>
+            <br>
+            <div class="linea-vertical-urdina"></div>
+          </div>
+    
+          <div class="alineatu">
+           
+            <div class="contenido">
+              <p>Jon Etxeberria<br><span class="azpikoa">Erdiko</span></p>
+            </div>
+    
+            <div class="espacio"></div>
+            
+            <div class="contenido">
+              <p>Egoitz Garmendia<br><span class="azpikoa">Hegal</span></p>
+            </div>
+    
+            <div class="espacio"></div>
+            
+            <div class="contenido">
+              <p>Koldo Martinez<br><span class="azpikoa">Atzelari</span></p>
+            </div>
+          </div>
+        </div>
+  </main>
+
+  <main class="mainbi">
+
+    <h1 class="kidegotitulo"><u>Kidego teknikoak</u></h1>
+    <div class="columna">
+
+      <div>
+        <div class="linea-vertical-urdina"></div>
+        <br>
+        <div class="linea-vertical-beltza"></div>
+        <br>
+      </div>
+
+      <div class="alineatu">
+       
+        <div class="contenido">
+          <p>Diego Silva<br><span class="azpikoa">Entrenatzailea</span></p>
+        </div>
+
+        <div class="espacio"></div>
+        
+        <div class="contenido">
+          <p>Juan Martinez <br><span class="azpikoa">Ordezkaria</span></p>
+        </div>
+
+      </div>
+
+      
+    <div class="columnabi">
+
+      <div>
+        <div class="linea-vertical-beltza"></div>
+        <br>
+        <div class="linea-vertical-urdina"></div>
+        <br>
+      </div>
+
+      <div class="alineatu">
+       
+        <div class="contenido">
+          <p>carlos Rodriguez<br><span class="azpikoa">2. Entrenatzailea</span></p>
+        </div>
+
+        <div class="espacio"></div>
+        
+        <div class="contenido">
+          <p>Alejandro Fernandez<br><span class="azpikoa">Medikua</span></p>
+        </div>
+  
+      </div>
+      
+
+  <div class="columnabi">
+
+      <div>
+        <div class="linea-vertical-urdina"></div>
+        <br>
+        <div class="linea-vertical-beltza"></div>
+        <br>
+      </div>
+
+      <div class="alineatu">
+       
+        <div class="contenido">
+          <p>Luis Gonzalez<br><span class="azpikoa">Prestatzaile fisikoa</span></p>
+        </div>
+
+        <div class="espacio"></div>
+        
+        <div class="contenido">
+          <p>Javier Perez<br><span class="azpikoa">Fisiterapeuta</span></p>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="kontaktatu">
+      <img src="Irudiak/logoa-modified.png"  alt="Mi foto"/>
+      <div class="espaciofoot"></div>
+      <div>
+        <h2>GURE SARE SOZIALAK</h2>
+        <p><img src="Irudiak/icono/insta.png" alt="insta"> @tolosa_Rugby_Union</p>
+        <p><img src="Irudiak/icono/face.png" alt="insta"> @tolosa_RU</p>
+        <p><img src="Irudiak/icono/you.png" alt="insta"> TolosaRugbyU_</p>
+      </div>
+      <div class="espaciofoot"></div>
+      <div>
+        <h2>GUREKIN KONTAKTAU</h2>
+        <p>TolosaRugbyUnion@gmail.com</p>
+        <p>telf: +34 638 99 99 23</p>
+      </div>
+      <div class="espacio"></div>
+     
+    </div>
+    <p>Copyright &copy; 2024 Tolosa Rugby Union</p>
+  </footer>
+</body>
+</html>

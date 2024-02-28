@@ -1,0 +1,70 @@
+
+Jardunaldi 1:
+1 vs 8
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '1', '8', NULL, NULL, NULL, NULL, NULL);
+2 vs 7
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '2', '7', NULL, NULL, NULL, NULL, NULL);
+3 vs 6
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '3', '6', NULL, NULL, NULL, NULL, NULL);
+4 vs 5
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '4', '5', NULL, NULL, NULL, NULL, NULL);
+
+Jardunaldi 2:
+1 vs 7
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '1', '7', NULL, NULL, NULL, NULL, NULL);
+8 vs 6
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '8', '6', NULL, NULL, NULL, NULL, NULL);
+2 vs 5
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '2', '5', NULL, NULL, NULL, NULL, NULL);
+3 vs 4
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '3', '4', NULL, NULL, NULL, NULL, NULL);
+
+Jardunaldi 3:
+1 vs 6
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '1', '6', NULL, NULL, NULL, NULL, NULL);
+7 vs 5
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '7', '5', NULL, NULL, NULL, NULL, NULL);
+8 vs 4
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '8', '4', NULL, NULL, NULL, NULL, NULL);
+2 vs 3
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '2', '3', NULL, NULL, NULL, NULL, NULL);
+
+Jardunaldi 4:
+1 vs 5
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '1', '5', NULL, NULL, NULL, NULL, NULL);
+6 vs 4
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '6', '4', NULL, NULL, NULL, NULL, NULL);
+7 vs 3
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '7', '3', NULL, NULL, NULL, NULL, NULL);
+8 vs 2
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '8', '2', NULL, NULL, NULL, NULL, NULL);
+
+Jardunaldi 5:
+1 vs 4
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '1', '4', NULL, NULL, NULL, NULL, NULL);
+5 vs 3
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '5', '3', NULL, NULL, NULL, NULL, NULL);
+6 vs 2
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '6', '2', NULL, NULL, NULL, NULL, NULL);
+7 vs 8
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '7', '8', NULL, NULL, NULL, NULL, NULL);
+
+Jardunaldi 6:
+1 vs 3
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '1', '3', NULL, NULL, NULL, NULL, NULL);
+4 vs 2
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '4', '2', NULL, NULL, NULL, NULL, NULL);
+5 vs 8
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '5', '8', NULL, NULL, NULL, NULL, NULL);
+6 vs 7
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '6', '7', NULL, NULL, NULL, NULL, NULL);
+
+Jardunaldi 7:
+1 vs 2
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '1', '2', NULL, NULL, NULL, NULL, NULL);
+3 vs 8
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '3', '8', NULL, NULL, NULL, NULL, NULL);
+4 vs 7
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '4', '7', NULL, NULL, NULL, NULL, NULL);
+5 vs 6
+SQL sententzia: INSERT INTO Partidoa (Kod, Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES (NULL, '5', '6', NULL, NULL, NULL, NULL, NULL);

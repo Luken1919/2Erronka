@@ -1,0 +1,246 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #578caf;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  background-color: #184563;
+  padding: 0;
+}
+
+/* Estilos para el título del encabezado */
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header h1 img{
+  height: 100px;
+  width: 100px;
+}
+
+/* Estilos para la navegación en el encabezado */
+header nav {
+  float: right;
+  font-size: 20px;
+  z-index: 1;
+}
+
+/* Estilos para la lista no ordenada dentro de la navegación */
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para los elementos de la lista dentro de la navegación */
+header nav ul li {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+/* Estilos para los enlaces dentro de la lista de navegación */
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos para los enlaces al pasar el cursor sobre ellos */
+header nav ul li a:hover {
+  color: black;
+  padding: 5px;
+  background-color: #5B7384;
+}
+
+/* Estilos para los submenús desplegables */
+header nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #6F8CA0;
+  border: 1px solid #1A5276;
+  padding: 10px;
+}
+
+/* Estilos para mostrar los submenús al pasar el cursor sobre los elementos de la lista */
+header nav ul li:hover ul {
+  display: block;
+}
+
+/* Estilos para el contenido principal */
+.main{
+  background-color: #578caf;
+  color: rgb(255, 255, 255);
+
+  }
+
+  .tituloa{
+      font-size: 50px;
+      text-align: center;
+      font-family: Copperplate;
+      letter-spacing: -1px;
+      background-image: url('../Irudiak/sub16.jpg'); /* Ruta de la imagen de fondo */
+      background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
+      background-position: center; /* Alinear la imagen al centro */
+      background-color:  rgba(0, 0, 0, 10);
+      padding: 10%;
+  }
+ 
+
+
+
+.linea-horizontal {
+  width: 200px; /* Anchura de la línea */
+  height: 8px; /* Altura de la línea */
+  background-color: rgb(255, 255, 255); /* Color de la línea */
+  margin: 0 auto;
+  margin-top: -30px;
+  }
+  
+
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #000;
+  color: #fff;
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.kontaktatu{
+  display: flex;
+  text-align: left;
+  
+}
+.kontaktatu img{
+  height: 200px;
+  width: 200px;
+}
+.kontaktatu div img{
+  height: 17px;
+  width: 17px;
+}
+.espaciofoot{
+  margin-left: 10%;
+}
+
+
+
+.alineatu p {
+  margin: 0 10px; /* Espacio entre los elementos de texto */
+}
+
+.espacio{
+  color: #22597e;
+  margin-top:13px;
+}
+
+.azpikoa{
+  font-size: 15px;
+}
+
+
+/* Estilos para las columnas */
+.columna {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+/* Ajustar el espacio entre las columnas */
+.alineatu {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Alinea los elementos en el centro horizontalmente */
+}
+
+/* Estilos para los contenedores de línea y contenido */
+.contenido {
+  display: flex;
+  align-items: center; /* Alinea el contenido verticalmente */
+  font-size: 25px;
+}
+
+/* Estilos para las líneas verticales */
+.linea-vertical-urdina,
+.linea-vertical-beltza {
+  width: 7px;
+  height: 54px; /* Ajusta la altura de la línea según tu diseño */
+}
+
+.linea-vertical-urdina {
+  background-color: blue; /* Color de la línea */
+}
+
+.linea-vertical-beltza {
+  background-color: black; /* Color de la línea */
+}
+
+.columnabi {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+h1{
+  margin-left: 10%;
+  color: #fff;
+}
+
+.mainbi{
+  background-color: #578caf;
+  color: rgb(255, 255, 255);
+  margin-top: 6%;
+  margin-left: -38%;
+  }
+
+  .kidegotitulo{
+    margin-left: 34.4%;
+  }
+
+  @media (max-width: 768px) {
+  
+    header h1 .kontaktatu img {
+      height: 6px;
+      width: 6px;
+    }
+    header nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    header nav ul li {
+      padding: 5px;
+    }
+
+    .kontaktatu {
+      flex-direction: column;
+      align-items: center;
+    }
+    .espaciofoot {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+
+    .kontaktatu img{
+      height: 150px;
+      width: 150px;
+      opacity: 70%;
+    }
+    header nav {
+      font-size: 16px;
+    }
+  }
