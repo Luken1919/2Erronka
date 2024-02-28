@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bazkideentzako Inkesta</title>
-    <link rel="stylesheet" type="text/css" href="bazkidea.html">
+    <link rel="stylesheet" type="text/css" href="Style/bazkidea.css">
 </head>
 <body>
 
     <h1>Bazkideentzako Inkesta</h1>
     
     <form action="/prozesatu_inkesta.php" method="post">
-        <p>Datorren denboraldirako 3 kamiseta diseinu ditugu?</p>
+        <p>Datorren denboraldirako 3 kamiseta diseinu ditugu, zein duzu gustukoa? (gehien bozkatuena aukeratuko da)</p>
+        <!-- Design Option 1 -->
         <input type="radio" name="aukera_diseinua" value="aukera1" id="aukera1">
         <label for="aukera1">Aukera 1</label><br>
-        
+        <img src="Irudiak/diseinu1.jpg" width="200" height="200" alt="Aukera 1" />
+
+<!-- Design Option 2 -->
         <input type="radio" name="aukera_diseinua" value="aukera2" id="aukera2">
         <label for="aukera2">Aukera 2</label><br>
-        
+        <img src="Irudiak/diseinu2.jpg" width="200" height="200" alt="Aukera 2" />
+
+<!-- Design Option 3 -->
         <input type="radio" name="aukera_diseinua" value="aukera3" id="aukera3">
         <label for="aukera3">Aukera 3</label><br>
-
-        <p>Zer motako ekitaldi antolatu nahiko duzu?</p>
+        <img src="Irudiak/diseinu3.jpg" width="200" height="200" alt="Aukera 3" />
+        <p>Zer motako ekitaldi antolatu nahiko zenuke?</p>
         <input type="checkbox" name="ekitaldi_mota[]" value="torneo">Rugbyko txapelketa bat Tolosako jendearentzat<br>
         <input type="checkbox" name="ekitaldi_mota[]" value="klinika">Entrenamendu irekiak ostegunetan<br>
         <input type="checkbox" name="ekitaldi_mota[]" value="bilkura">Klubeko beteranoen arteko ongintzazko partidoa<br>
