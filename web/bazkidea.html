@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="eu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bazkideentzako Inkesta</title>
-    <link rel="stylesheet" type="text/css" href="Style/bazkidea.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tolosa Union Rugby</title>
+  <link rel="stylesheet" href="Style/bazkidea.css">
+  <link rel="icon" href="Irudiak/logonew.png" type="image/png">
 </head>
 <body>
-
-    <h1>Bazkideentzako Inkesta</h1>
+    <header>
+        <h1><a href="index.html"><img src="Irudiak/logonew.png" width="160" height="160" alt="Mi foto" /></h1>
+        <nav>
+          <ul>
+            <li><a href="Albisteak.html">Taldearen albisteak</a></li>
+            <li><a href="#">Historia</a>
+              <ul>
+                <li><a href="Klubhistoria.html">Klubaren historia</a></li>
+                <li><a href="Tituloak.html">Irabazitako tituluak</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Taldea</a>
+              <ul>
+                <li><a href="gizonak.html">Gizonak</a></li>
+                <li><a href="emakumeak.html">Emakumeak</a></li>
+                <li><a href="sub18.html">Sub 18</a></li>
+                <li><a href="sub16.html">Sub 16</a></li>
+              </ul>
+            </li>
+            <li><a href="SaioaHasi.html">Bazkidetza</a></li>
+          </ul>
+        </nav>
+      </header>
+    
     
     <form action="/prozesatu_inkesta.php" method="post">
+        <h1>Bazkideentzako Inkesta</h1>
         <p>Datorren denboraldirako 3 kamiseta diseinu ditugu, zein duzu gustukoa? (gehien bozkatuena aukeratuko da)</p>
         <!-- Design Option 1 -->
         <input type="radio" name="aukera_diseinua" value="aukera1" id="aukera1">
