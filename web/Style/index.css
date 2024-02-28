@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
 }
 
 header {
@@ -76,12 +77,7 @@ header {
   header nav ul li:hover ul {
     display: block;
   }
-  
-  /* Estilos para el contenido principal */
-  main {
-    padding: 0px;
-  }
-  
+
   
   /* Estilos para la sección de texto */
   .texto {
@@ -161,10 +157,7 @@ img{
   }
 }
 @media (max-width: 768px) {
-  .mainblack {
-    flex-direction: column; /* Cambiamos la dirección de los elementos a columna */
-    align-items: center; /* Centramos los elementos horizontalmente */
-  }
+
   header h1 .kontaktatu img {
     height: 6px;
     width: 6px;
@@ -176,16 +169,9 @@ img{
   header nav ul li {
     padding: 5px;
   }
-  .imagenes-derecha img {
-    width: 100%; /* Ajusta el ancho máximo de la imagen */
-    height: 70%;
-  }
-  .texto-izquierda{
-    max-width: 100%;
-  }
-  .texto-izquierda, .imagenes-derecha img {
-    margin-bottom: 30px;
-  }
+ 
+
+ 
   .kontaktatu {
     flex-direction: column;
     align-items: center;
@@ -203,6 +189,7 @@ img{
   .kontaktatu img{
     height: 150px;
     width: 150px;
+    opacity: 70%;
   }
   .linea-vertical{
     width: 7px;
