@@ -31,7 +31,7 @@ body {
   /* Estilos para la navegación en el encabezado */
   header nav {
     float: right;
-    font-size: 16px;
+    font-size: 20px;
     z-index: 1;
   }
   
@@ -185,6 +185,7 @@ body {
   }
 
   @media (max-width: 768px) {
+  
     .mainblack {
       flex-direction: column; /* Cambiamos la dirección de los elementos a columna */
       align-items: center; /* Centramos los elementos horizontalmente */
@@ -227,6 +228,9 @@ body {
       height: 150px;
       width: 150px;
       opacity: 70%;
+    }
+    header nav {
+      font-size: 16px;
     }
   }
   
