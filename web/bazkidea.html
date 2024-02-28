@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazkideentzako Inkesta</title>
+    <link rel="stylesheet" type="text/css" href="bazkidea.html">
+</head>
+<body>
+
+    <h1>Bazkideentzako Inkesta</h1>
+    
+    <form action="/prozesatu_inkesta.php" method="post">
+        <p>Datorren denboraldirako 3 kamiseta diseinu ditugu?</p>
+        <input type="radio" name="aukera_diseinua" value="aukera1" id="aukera1">
+        <label for="aukera1">Aukera 1</label><br>
+        
+        <input type="radio" name="aukera_diseinua" value="aukera2" id="aukera2">
+        <label for="aukera2">Aukera 2</label><br>
+        
+        <input type="radio" name="aukera_diseinua" value="aukera3" id="aukera3">
+        <label for="aukera3">Aukera 3</label><br>
+
+        <p>Zer motako ekitaldi antolatu nahiko duzu?</p>
+        <input type="checkbox" name="ekitaldi_mota[]" value="torneo">Rugbyko txapelketa bat Tolosako jendearentzat<br>
+        <input type="checkbox" name="ekitaldi_mota[]" value="klinika">Entrenamendu irekiak ostegunetan<br>
+        <input type="checkbox" name="ekitaldi_mota[]" value="bilkura">Klubeko beteranoen arteko ongintzazko partidoa<br>
+
+        <p>Nola hobetu dezakegu bazkideen esperientzia klubeko webgunean?</p>
+        <textarea name="hobekuntza_oharra" rows="4" cols="50"></textarea><br>
+
+        <p>Nola hobetu dezakegu klubeko entrenamenduak?</p>
+        <select name="hobekuntza_entrenamenduak">
+            <option value="gehiago_entrenatzaileak">Entrenatzaile gehiago</option>
+            <option value="material_berriak">Material berriak eskaini</option>
+            <option value="gehiago_trening_txandak">Gehiago entrenatze txandak</option>
+        </select><br>
+
+        <p>Zer beste ideiak dauzkazu klubeko hobekuntzarako?</p>
+        <input type="text" name="beste_ideiak"><br>
+
+        <p>Sartu zure datuak ligako azken partidoa ikusteko txartelaren zozketan sartzeko:</p>
+        <label for="izena">Izena:</label>
+        <input type="text" name="izena" id="izena" required><br>
+
+        <label for="abizena">Abizena:</label>
+        <input type="text" name="abizena" id="abizena" required><br>
+
+        <label for="korreoa">Korreoa:</label>
+        <input type="email" name="korreoa" id="korreoa" required><br>
+
+        <label for="dni">DNI-a:</label>
+        <input type="text" name="dni" id="dni" required><br>
+
+        <br>
+
+        <input type="submit" value="Bidali Inkesta">
+    </form>
+
+</body>
+</html>
