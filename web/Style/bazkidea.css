@@ -1,10 +1,15 @@
 /* styles.css */
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #518cfa;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Irudiak/fondobazkidea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header {
     display: flex;
@@ -153,4 +158,29 @@ input[type="submit"]:hover {
     .design-option input[type="radio"]:checked + label img {
         border-color: #007BFF; /* Highlight border color when selected */
     }
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+.kontaktatu{
+  display: flex;
+  text-align: left;
+  
+}
+.kontaktatu img{
+  height: 200px;
+  width: 200px;
+}
+.kontaktatu div img{
+  height: 17px;
+  width: 17px;
+}
+.espaciofoot{
+  margin-left: 10%;
 }
