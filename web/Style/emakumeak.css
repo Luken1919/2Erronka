@@ -211,4 +211,36 @@ h1{
   .kidegotitulo{
     margin-left: 34.4%;
   }
+  @media (max-width: 768px) {
+  
+    header h1 .kontaktatu img {
+      height: 6px;
+      width: 6px;
+    }
+    header nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    header nav ul li {
+      padding: 5px;
+    }
 
+    .kontaktatu {
+      flex-direction: column;
+      align-items: center;
+    }
+    .espaciofoot {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+
+    .kontaktatu img{
+      height: 150px;
+      width: 150px;
+      opacity: 70%;
+    }
+    header nav {
+      font-size: 16px;
+    }
+  }

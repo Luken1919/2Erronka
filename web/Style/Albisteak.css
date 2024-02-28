@@ -27,7 +27,9 @@ header h1 img{
 }
 
 header nav {
-  font-size: 16px; /* Ajustado para mejor visualización en móviles */
+  float: right;
+  font-size: 20px;
+  z-index: 1;
 }
 
 header nav ul {
@@ -86,6 +88,7 @@ article {
   article {
     width: calc(50% - 40px); /* Ajuste para tablets y dispositivos medianos */
   }
+
 }
 
 @media (min-width: 1024px) {
@@ -97,6 +100,17 @@ article {
 
   article {
     width: calc(25% - 40px); /* Ajuste para pantallas grandes */
+  }
+  
+}
+@media (max-width: 768px) {
+  header nav {
+    font-size: 16px;
+  }
+  .kontaktatu img{
+    height: 150px;
+    width: 150px;
+    
   }
 }
 
@@ -115,11 +129,12 @@ footer {
 }
 
 .kontaktatu img {
-  max-height: 100px;
-  max-width: 100px;
+  height: 200px;
+  width: 200px;
 }
 
 .kontaktatu div img {
   height: 17px;
   width: 17px;
+ 
 }

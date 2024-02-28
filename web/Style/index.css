@@ -1,19 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background-color: #184563;
-    padding: 0;
-  }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  background-color: #184563;
+  padding: 0;
+}
   
   /* Estilos para el título del encabezado */
   header h1 {
@@ -56,7 +56,7 @@ body {
   /* Estilos para los enlaces al pasar el cursor sobre ellos */
   header nav ul li a:hover {
     color: black;
-    padding: 5px;
+    padding: 2px;
     background-color: #5B7384;
   }
   
@@ -69,7 +69,7 @@ body {
     background-color: #6F8CA0;
     border: 1px solid #1A5276;
     padding: 10px;
-    width: 125px;
+    
   }
   
   /* Estilos para mostrar los submenús al pasar el cursor sobre los elementos de la lista */
@@ -152,11 +152,6 @@ img{
   display: none;
 }
 
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
 @keyframes fade {
   from {
       opacity: 0.4;
@@ -164,4 +159,63 @@ img{
   to {
       opacity: 1;
   }
+}
+@media (max-width: 768px) {
+  .mainblack {
+    flex-direction: column; /* Cambiamos la dirección de los elementos a columna */
+    align-items: center; /* Centramos los elementos horizontalmente */
+  }
+  header h1 .kontaktatu img {
+    height: 6px;
+    width: 6px;
+  }
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul li {
+    padding: 5px;
+  }
+  .imagenes-derecha img {
+    width: 100%; /* Ajusta el ancho máximo de la imagen */
+    height: 70%;
+  }
+  .texto-izquierda{
+    max-width: 100%;
+  }
+  .texto-izquierda, .imagenes-derecha img {
+    margin-bottom: 30px;
+  }
+  .kontaktatu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .espaciofoot {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  img{
+    width: 100%;
+    height: 450px;
+    opacity:70%;
+  }
+  .kontaktatu img{
+    height: 150px;
+    width: 150px;
+  }
+  .linea-vertical{
+    width: 7px;
+    height: 150px; /* Ajusta la altura de la línea según tu diseño */
+    top: 49%;
+    left: 25%;
+    
+  }
+  .texto {
+    font-size: 17px;
+  }
+  header nav {
+    font-size: 16px;
+  }
+ 
 }

@@ -42,7 +42,7 @@ header h1 img{
 /* Estilos para la navegación en el encabezado */
 header nav {
   float: right;
-  font-size: 16px;
+  font-size: 20px;
   z-index: 1;
 }
 
@@ -241,6 +241,14 @@ margin-top: -30px;
   .espaciofoot {
     margin-left: 0;
     margin-bottom: 20px;
+  }
+  header nav {
+    font-size: 16px;
+  }
+  .kontaktatu img{
+    height: 150px;
+    width: 150px;
+    opacity: 70%;
   }
 }
 
