@@ -55,7 +55,7 @@ header {
   }
   
   /* Estilos para los enlaces al pasar el cursor sobre ellos */
-  header nav ul li a:hover {
+  .menu:hover {
     color: black;
     padding: 2px;
     background-color: #5B7384;
@@ -67,7 +67,7 @@ header {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #6F8CA0;
+    background-color: #6f8ca0;
     border: 1px solid #1A5276;
     padding: 10px;
     
@@ -231,4 +231,19 @@ footer p{
 }
   
 
+}
+
+.ikono img{
+  width: 55px;
+  height: 55px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+
+.ikono img{
+  width: 55px;
+  height: 55px;
+  margin-left: 30px;
+  margin-right: 100px;
 }

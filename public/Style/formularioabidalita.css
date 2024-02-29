@@ -11,6 +11,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.profila{
+  background-image: url(../Irudiak/profila.png);
+}
+
 header {
     display: flex;
     align-items: center;
