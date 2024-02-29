@@ -10,10 +10,13 @@ body {
 
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between; 
   background-color: #184563;
   padding: 0;
+}
+
+header img{
+  align-items: center;
 }
   
   /* Estilos para el título del encabezado */
@@ -238,13 +241,6 @@ footer p{
   width: 55px;
   height: 55px;
   margin-left: 14px;
-  margin-right: 14px;
-}
-
-
-.ikono img{
-  width: 55px;
-  height: 55px;
-  margin-left: 30px;
-  margin-right: 100px;
+  margin-right: 25px;
+  
 }
