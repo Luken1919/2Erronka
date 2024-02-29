@@ -51,8 +51,8 @@ public class LigaOna {
 					int bisitatzaileTaldea = (taldeak.length - 1) - partido;
 
 					// INSERT INTO sententzia sortu
-					String sqlInsert = "INSERT INTO Partidoa (Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) " +
-							"VALUES ('" + taldeak[lokalTaldea] + "', '" + taldeak[bisitatzaileTaldea] + "', NULL, NULL, NULL, NULL, " + txapelketaKod + ");\n";
+					String sqlInsert = "INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) " +
+							"VALUES ('" + taldeak[lokalTaldea] + "', '" + taldeak[bisitatzaileTaldea] + "', " + txapelketaKod + ");\n";
 					sqlInsertWriter.write(sqlInsert);
 				}
 
