@@ -311,12 +311,12 @@
               while ($row = $result->fetch_assoc()) {
                 // Actualizar los puntuak de los equipos basados en los resultados de los partidos
                 if ($row["Pts_lokala"] > $row["Pts_bisitaria"]) {
-                  $taldePuntuak[$row["Lokala"]] += 3; // Equipo local gana
+                  $taldePuntuak[$row["Lokala"]] += 4; // Equipo local gana
                 } elseif ($row["Pts_lokala"] == $row["Pts_bisitaria"]) {
-                  $taldePuntuak[$row["Lokala"]] += 1; // Empate
-                  $taldePuntuak[$row["Bisitaria"]] += 1;
+                  $taldePuntuak[$row["Lokala"]] += 2; // Empate
+                  $taldePuntuak[$row["Bisitaria"]] += 2;
                 } else {
-                  $taldePuntuak[$row["Bisitaria"]] += 3; // Equipo visitante gana
+                  $taldePuntuak[$row["Bisitaria"]] += 4; // Equipo visitante gana
                 }
               }
             }
