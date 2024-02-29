@@ -269,85 +269,45 @@
 
           </div>
         </div>
-        <h1>Clasificación de Equipos</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>Posizioa</th>
-              <th>Equipo</th>
-              <th>Puntuak</th>
-            </tr>
-          </thead>
-          <tbody>
-            <?php
-            // Conexión a la base de datos
-            $servername = "mysql";
-            $username = "admin";
-            $password = "1234";
-            $dbname = "Erronka2_Rugby";
-
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            if ($conn->connect_error) {
-              die("Conexión fallida: " . $conn->connect_error);
-            }
-
-            // Obtener todos los equipos
-            $sql = "SELECT * FROM Taldea Where Kategoria_Kod = 1";
-            $result = $conn->query($sql);
-
-            // Inicializar un array para almacenar los puntuak de cada equipo
-            $taldePuntuak = array();
-            if ($result->num_rows > 0) {
-              while ($row = $result->fetch_assoc()) {
-                $taldePuntuak[$row["Kod"]] = 0;
-              }
-            }
-
-            // Obtener los resultados de los partidos
-            $sql = "SELECT * FROM Partidoa";
-            $result = $conn->query($sql);
-
-            if ($result->num_rows > 0) {
-              while ($row = $result->fetch_assoc()) {
-                // Actualizar los puntuak de los equipos basados en los resultados de los partidos
-                if ($row["Pts_lokala"] > $row["Pts_bisitaria"]) {
-                  $taldePuntuak[$row["Lokala"]] += 4; // Equipo local gana
-                } elseif ($row["Pts_lokala"] == $row["Pts_bisitaria"]) {
-                  $taldePuntuak[$row["Lokala"]] += 2; // Empate
-                  $taldePuntuak[$row["Bisitaria"]] += 2;
-                } else {
-                  $taldePuntuak[$row["Bisitaria"]] += 4; // Equipo visitante gana
-                }
-              }
-            }
-
-            // Ordenar los equipos por puntuak en orden descendente
-            arsort($taldePuntuak);
-
-            // Mostrar la clasificación
-            $posicion = 1;
-            foreach ($taldePuntuak as $taldeak => $puntuak) {
-              $sql = "SELECT Izena FROM Taldea WHERE Kod = $taldeak";
-              $equipoResult = $conn->query($sql);
-              $equipoRow = $equipoResult->fetch_assoc();
-              echo "<tr>";
-              echo "<td>" . $posicion . "</td>";
-              echo "<td>" . $equipoRow["Izena"] . "</td>";
-              echo "<td>" . $puntuak . "</td>";
-              echo "</tr>";
-              $posicion++;
-            }
-
-            $conn->close();
-            ?>
-          </tbody>
-        </table>
+        <div>
+          <h1>Clasificación de Equipos</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Posizioa</th>
+                <th>Equipo</th>
+                <th>Puntuak</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
   </main>
 
 
 
   <footer>
-    <p>Copyright &copy; 2023 Tolosa Rugby Union</p>
+    <div class="kontaktatu">
+      <img src="Irudiak/logoa-modified.png" alt="Mi foto" />
+      <div class="espaciofoot"></div>
+      <div>
+        <h2>GURE SARE SOZIALAK</h2>
+        <p><img src="Irudiak/icono/insta.png" alt="insta"> @tolosa_Rugby_Union</p>
+        <p><img src="Irudiak/icono/face.png" alt="insta"> @tolosa_RU</p>
+        <p><img src="Irudiak/icono/you.png" alt="insta"> TolosaRugbyU_</p>
+      </div>
+      <div class="espaciofoot"></div>
+      <div>
+        <h2>GUREKIN KONTAKTAU</h2>
+        <p>TolosaRugbyUnion@gmail.com</p>
+        <p>telf: +34 638 99 99 23</p>
+      </div>
+      <div class="espacio"></div>
+
+    </div>
+    <p>Copyright &copy; 2024 Tolosa Rugby Union</p>
   </footer>
 </body>
 
