@@ -23,9 +23,9 @@
         <li><a href="#">Taldea</a>
           <ul>
             <li><a href="#">Gizonezkoa</a></li>
-            <li><a href="emakumeak.html">Emakumezkoa</a></li>
-            <li><a href="sub18.html">Sub 18</a></li>
-            <li><a href="sub16.html">Sub 16</a></li>
+            <li><a href="emakumeak.php">Emakumezkoa</a></li>
+            <li><a href="sub18.php">Sub 18</a></li>
+            <li><a href="sub16.php">Sub 16</a></li>
           </ul>
         </li>
         <li><a href="SaioaHasi.html">Bazkidetza</a></li>
