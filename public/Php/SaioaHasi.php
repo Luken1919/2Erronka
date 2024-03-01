@@ -26,11 +26,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $result = $conn->query($sql);
 
         if ($result->num_rows == 1) {
+            $row = $result->fetch_assoc();
             // Inicio de sesión exitoso, redirecciona a la página principal
             session_start();
+            $userType = $row["Mota"];
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $username;
-            header("Location: ../indexbaz.html");
+            if ($userType == "Admin") {
+                header("Location: ../indexAdmin.php");
+            } elseif ($userType == "Arrunta") {
+                header("Location: ../indexbaz.html");
+            } else {
+                echo "Erabiltzaile mota ezezaguna";
+            }
         } else {
             // Credenciales incorrectas, redirecciona a la página de inicio de sesión con un mensaje de error
             header("Location:../SaioaHasi.html");
