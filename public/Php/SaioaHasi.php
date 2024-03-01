@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             session_start();
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $username;
-            header("Location: ../indexbaz.hmtl");
+            header("Location: ../indexbaz.html");
         } else {
             // Credenciales incorrectas, redirecciona a la página de inicio de sesión con un mensaje de error
             header("Location: login.php?error=credenciales_invalidas");
