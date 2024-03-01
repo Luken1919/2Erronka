@@ -291,7 +291,7 @@
                 die("Conexión fallida: " . $conn->connect_error);
               }
 
-              $sql = "SELECT * FROM Taldea WHERE Kategoria_Kod1 = 1";
+              $sql = "SELECT * FROM Taldea WHERE Kategoria_Kod1 = 4";
               $result = $conn->query($sql);
 
               $taldePuntuak = array();
