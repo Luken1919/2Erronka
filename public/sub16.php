@@ -42,7 +42,7 @@
         <p><b>SUB16:<br>GIZONAK</b></p>
         <div class="linea-horizontal"></div>
       </div>
-      <h1><u>Jokalariak</u></h1>
+      <h1 class="jokalariaktitulo"><u>Jokalariak</u></h1>
       <div class="columna">
 
         <div>

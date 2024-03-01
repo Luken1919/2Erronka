@@ -103,7 +103,6 @@ header nav ul li:hover ul {
 .main{
   background-color: #578caf;
   color: rgb(255, 255, 255);
-  flex-direction: column;
   }
 
   .tituloa{
@@ -138,7 +137,7 @@ footer {
   margin-top: auto;
   padding: 20px;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .kontaktatu{
@@ -218,10 +217,11 @@ footer {
 .columnahiru{
   justify-content: center;
   margin-top: 3%;
+
 }
 
 h1{
-  margin-left: 10%;
+
   color: #fff;
   text-decoration: underline;
 }
@@ -237,10 +237,14 @@ h1{
     background-color: #578caf;
     color: rgb(255, 255, 255);
     margin-top: 6%;
-    margin-left: 10%;
+    margin-left: 7%;
     }
+
+  .jokalariaktitulo{
+    margin-left:8%;
+  }
   .kidegotitulo{
-    margin-left: 34.4%;
+    margin-left: 32.4%;
   }
 
   @media (max-width: 768px) {
