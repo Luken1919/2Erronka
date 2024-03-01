@@ -11,12 +11,25 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.profila{
+  background-image: url(../Irudiak/profila.png);
+}
+
+.ikono img{
+  width: 55px;
+  height: 55px;
+}
+
+.ikono{
+  margin-left: 14px;
+  margin-right: 40px; 
+}
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background-color: #184563;
-    padding: 0;
+  display: flex;
+  justify-content: space-between; 
+  background-color: #184563;
+  padding: 0;
+  align-items: center;
   }
     
     /* Estilos para el título del encabezado */
@@ -35,6 +48,8 @@ header {
       float: right;
       font-size: 20px;
       z-index: 1;
+      display: flex;
+      align-items: center;
     }
     
     /* Estilos para la lista no ordenada dentro de la navegación */
@@ -56,34 +71,14 @@ header {
       color: white;
       text-decoration: none;
     }
-    .menu:hover {
+    
+    
+    /* Estilos para los enlaces al pasar el cursor sobre ellos */
+    header nav ul li a:hover {
       color: black;
+      padding: 2px;
       background-color: #5B7384;
     }
-    
-    #karratua {
-      width: 150px;
-      height: 35px;
-      background-color: #22638f; /* Color inicial */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: rgb(122, 64, 64); /* Color del texto */
-      transition: background-color 0.3s; /* Transición suave */
-      border: 2px solid rgb(0, 0, 0);
-      margin-right: 30px;
-      align-items: center;
-    }
-    
-    #karratua:hover {
-      background-color: darkblue; /* Cambiar a rojo cuando el ratón pase por encima */
-    
-    }
-    
-    header ul {
-      display: flex;
-    }
-
     
     /* Estilos para los submenús desplegables */
     header nav ul li ul {

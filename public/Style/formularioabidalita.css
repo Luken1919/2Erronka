@@ -12,10 +12,6 @@ body {
     background-size: cover;
 }
 
-.profila{
-  background-image: url(../Irudiak/profila.png);
-}
-
 header {
     display: flex;
     align-items: center;
@@ -40,6 +36,8 @@ header {
       float: right;
       font-size: 20px;
       z-index: 1;
+      display: flex;
+      align-items: center;
     }
     
     /* Estilos para la lista no ordenada dentro de la navegación */
@@ -52,7 +50,7 @@ header {
     /* Estilos para los elementos de la lista dentro de la navegación */
     header nav ul li {
       display: inline-block;
-      padding: 10px;
+      padding: 9px;
       position: relative;
     }
     
@@ -149,4 +147,14 @@ footer {
 }
 .espaciofoot{
   margin-left: 10%;
+}
+
+.ikono img{
+  width: 55px;
+  height: 55px;
+}
+
+.ikono{
+  margin-left: 14px;
+  margin-right: 40px; 
 }
