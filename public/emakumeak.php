@@ -270,18 +270,17 @@
           </div>
         </div>
         <div>
-          <h1>Clasificación de Equipos</h1>
+          <h1>Klasifikazioa</h1>
           <table>
             <thead>
               <tr>
                 <th>Posizioa</th>
-                <th>Equipo</th>
+                <th>Taldea</th>
                 <th>Puntuak</th>
               </tr>
             </thead>
             <tbody>
               <?php
-              // Conexión a la base de datos
               $servername = "mysql";
               $username = "admin";
               $password = "1234";
@@ -292,11 +291,9 @@
                 die("Conexión fallida: " . $conn->connect_error);
               }
 
-              // Obtener todos los equipos
-              $sql = "SELECT * FROM Taldea Where Kategoria_Kod = 2";
+              $sql = "SELECT * FROM Taldea WHERE Kategoria_Kod1 = 2";
               $result = $conn->query($sql);
 
-              // Inicializar un array para almacenar los puntuak de cada equipo
               $taldePuntuak = array();
               if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
@@ -304,43 +301,50 @@
                 }
               }
 
-              // Obtener los resultados de los partidos
               $sql = "SELECT * FROM Partidoa";
               $result = $conn->query($sql);
 
               if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
-                  // Actualizar los puntuak de los equipos basados en los resultados de los partidos
                   if ($row["Pts_lokala"] > $row["Pts_bisitaria"]) {
-                    $taldePuntuak[$row["Lokala"]] += 4; // Equipo local gana
+                    if (isset($taldePuntuak[$row["Lokala"]])) {
+                      $taldePuntuak[$row["Lokala"]] += 4;
+                    }
                   } elseif ($row["Pts_lokala"] == $row["Pts_bisitaria"]) {
-                    $taldePuntuak[$row["Lokala"]] += 2; // Empate
-                    $taldePuntuak[$row["Bisitaria"]] += 2;
+                    if (isset($taldePuntuak[$row["Lokala"]]) && isset($taldePuntuak[$row["Bisitaria"]])) {
+                      $taldePuntuak[$row["Lokala"]] += 2;
+                      $taldePuntuak[$row["Bisitaria"]] += 2;
+                    }
                   } else {
-                    $taldePuntuak[$row["Bisitaria"]] += 4; // Equipo visitante gana
+                    if (isset($taldePuntuak[$row["Bisitaria"]])) {
+                      $taldePuntuak[$row["Bisitaria"]] += 4;
+                    }
                   }
                 }
               }
 
-              // Ordenar los equipos por puntuak en orden descendente
               arsort($taldePuntuak);
 
-              // Mostrar la clasificación
               $posicion = 1;
               foreach ($taldePuntuak as $taldeak => $puntuak) {
                 $sql = "SELECT Izena FROM Taldea WHERE Kod = $taldeak";
                 $equipoResult = $conn->query($sql);
-                $equipoRow = $equipoResult->fetch_assoc();
-                echo "<tr>";
-                echo "<td>" . $posicion . "</td>";
-                echo "<td>" . $equipoRow["Izena"] . "</td>";
-                echo "<td>" . $puntuak . "</td>";
-                echo "</tr>";
-                $posicion++;
+                if ($equipoResult) {
+                  $equipoRow = $equipoResult->fetch_assoc();
+                  echo "<tr>";
+                  echo "<td>" . $posicion . "</td>";
+                  echo "<td>" . $equipoRow["Izena"] . "</td>";
+                  echo "<td>" . $puntuak . "</td>";
+                  echo "</tr>";
+                  $posicion++;
+                } else {
+                  echo "Error: " . $conn->error;
+                }
               }
 
               $conn->close();
               ?>
+
             </tbody>
           </table>
         </div>

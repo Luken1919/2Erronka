@@ -270,17 +270,81 @@
           </div>
         </div>
         <div>
-          <h1>Clasificación de Equipos</h1>
+          <h1>Klasifikazioa</h1>
           <table>
             <thead>
               <tr>
                 <th>Posizioa</th>
-                <th>Equipo</th>
+                <th>Taldea</th>
                 <th>Puntuak</th>
               </tr>
             </thead>
             <tbody>
-              
+              <?php
+              $servername = "mysql";
+              $username = "admin";
+              $password = "1234";
+              $dbname = "Erronka2_Rugby";
+
+              $conn = new mysqli($servername, $username, $password, $dbname);
+              if ($conn->connect_error) {
+                die("Conexión fallida: " . $conn->connect_error);
+              }
+
+              $sql = "SELECT * FROM Taldea WHERE Kategoria_Kod1 = 1";
+              $result = $conn->query($sql);
+
+              $taldePuntuak = array();
+              if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                  $taldePuntuak[$row["Kod"]] = 0;
+                }
+              }
+
+              $sql = "SELECT * FROM Partidoa";
+              $result = $conn->query($sql);
+
+              if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                  if ($row["Pts_lokala"] > $row["Pts_bisitaria"]) {
+                    if (isset($taldePuntuak[$row["Lokala"]])) {
+                      $taldePuntuak[$row["Lokala"]] += 4;
+                    }
+                  } elseif ($row["Pts_lokala"] == $row["Pts_bisitaria"]) {
+                    if (isset($taldePuntuak[$row["Lokala"]]) && isset($taldePuntuak[$row["Bisitaria"]])) {
+                      $taldePuntuak[$row["Lokala"]] += 2;
+                      $taldePuntuak[$row["Bisitaria"]] += 2;
+                    }
+                  } else {
+                    if (isset($taldePuntuak[$row["Bisitaria"]])) {
+                      $taldePuntuak[$row["Bisitaria"]] += 4;
+                    }
+                  }
+                }
+              }
+
+              arsort($taldePuntuak);
+
+              $posicion = 1;
+              foreach ($taldePuntuak as $taldeak => $puntuak) {
+                $sql = "SELECT Izena FROM Taldea WHERE Kod = $taldeak";
+                $equipoResult = $conn->query($sql);
+                if ($equipoResult) {
+                  $equipoRow = $equipoResult->fetch_assoc();
+                  echo "<tr>";
+                  echo "<td>" . $posicion . "</td>";
+                  echo "<td>" . $equipoRow["Izena"] . "</td>";
+                  echo "<td>" . $puntuak . "</td>";
+                  echo "</tr>";
+                  $posicion++;
+                } else {
+                  echo "Error: " . $conn->error;
+                }
+              }
+
+              $conn->close();
+              ?>
+
             </tbody>
           </table>
         </div>
