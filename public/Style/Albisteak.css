@@ -10,6 +10,7 @@ body {
   background-size: cover;
 }
 
+
 header {
   display: flex;
   align-items: center;
@@ -49,11 +50,34 @@ header nav ul li a {
   text-decoration: none;
 }
 
-header nav ul li a:hover {
+.menu:hover {
   color: black;
-  padding: 5px;
   background-color: #5B7384;
 }
+
+#karratua {
+  width: 150px;
+  height: 35px;
+  background-color: #22638f; /* Color inicial */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(122, 64, 64); /* Color del texto */
+  transition: background-color 0.3s; /* Transición suave */
+  border: 2px solid rgb(0, 0, 0);
+  margin-right: 30px;
+  align-items: center;
+}
+
+#karratua:hover {
+  background-color: darkblue; /* Cambiar a rojo cuando el ratón pase por encima */
+
+}
+
+header ul {
+  display: flex;
+}
+
 header nav ul li ul {
   display: none;
   position: absolute;
