@@ -103,7 +103,7 @@ header nav ul li:hover ul {
 .main{
   background-color: #578caf;
   color: rgb(255, 255, 255);
-
+  flex-direction: column;
   }
 
   .tituloa{
@@ -215,10 +215,15 @@ footer {
   justify-content: center;
   margin-left: 100px;
 }
+.columnahiru{
+  justify-content: center;
+  margin-top: 3%;
+}
 
 h1{
   margin-left: 10%;
   color: #fff;
+  text-decoration: underline;
 }
 
 .mainbi{
@@ -228,6 +233,12 @@ h1{
   margin-left: -38%;
   }
 
+  .mainhiru{
+    background-color: #578caf;
+    color: rgb(255, 255, 255);
+    margin-top: 6%;
+    margin-left: 10%;
+    }
   .kidegotitulo{
     margin-left: 34.4%;
   }
@@ -265,3 +276,21 @@ h1{
       font-size: 16px;
     }
   }
+
+  tbody td{
+  background-color: antiquewhite;
+  color: #000;
+  }
+  tbody th{
+    background-color: rgb(173, 162, 144);
+    color: #000;
+  }
+
+  thead th{
+    background-color: rgb(173, 162, 144);
+    color: #000;
+  }
+  table{
+    margin-top: 50px;
+  }
+      

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
   <html lang="eu">
-
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -201,6 +200,7 @@
     <main class="mainbi">
 
       <h1 class="kidegotitulo"><u>Kidego teknikoak</u></h1>
+
       <div class="columna">
 
         <div>
@@ -247,7 +247,7 @@
             </div>
 
           </div>
-
+        </div>
 
           <div class="columnabi">
 
@@ -272,7 +272,9 @@
 
             </div>
           </div>
-          <div>
+        </main>
+        <main class="mainhiru">
+          <div class="columnahiru">
           <h1>Klasifikazioa</h1>
           <table>
             <thead>
@@ -344,7 +346,7 @@
                   echo "Error: " . $conn->error;
                 }
               }
-
+              
 
               // Equipo para el que quieres mostrar los partidos
               $equipo = "Tolosa Union Rugby";
@@ -381,8 +383,8 @@
         <div>
           <h2>GURE SARE SOZIALAK</h2>
           <p><img src="Irudiak/icono/insta.png" alt="insta"> @tolosa_Rugby_Union</p>
-          <p><img src="Irudiak/icono/face.png" alt="insta"> @tolosa_RU</p>
-          <p><img src="Irudiak/icono/you.png" alt="insta"> TolosaRugbyU_</p>
+          <p><img src="Irudiak/icono/face.png" alt="face"> @tolosa_RU</p>
+          <p><img src="Irudiak/icono/you.png" alt="youtube"> TolosaRugbyU_</p>
         </div>
         <div class="espaciofoot"></div>
         <div>

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tolosa Rugby Union</title>
   <link rel="stylesheet" href="Style/gizonak.css">
+  <link rel="icon" href="Irudiak/logonew.png" type="image/png">
 </head>
 
 <body class="bodytituloa">
