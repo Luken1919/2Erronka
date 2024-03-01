@@ -11,24 +11,36 @@
   <header>
     <h1><a href="index.html"><img src="Irudiak/logonew.png" width="160" height="160" alt="Mi foto" /></h1>
     <nav>
+      
       <ul>
-        <li><a href="Albisteak.html">Taldearen albisteak</a></li>
-        <li><a href="#">Historia</a>
+        <li class="menu"><a href="Albisteak.html">Taldearen albisteak</a></li>
+        <li class="menu"><a href="#">Historia</a>
           <ul>
-            <li><a href="Klubhistoria.html">Klubaren historia</a></li>
-            <li><a href="Tituloak.html">Irabazitako tituluak</a></li>
+            <li class="menu"><a href="Klubhistoria.html">Klubaren historia</a></li>
+            <li class="menu"><a href="Tituloak.html">Irabazitako tituluak</a></li>
           </ul>
         </li>
-        <li><a href="#">Taldea</a>
+        <li class="menu"><a href="#">Taldea</a>
           <ul>
-            <li><a href="gizonak.html">Gizonak</a></li>
-            <li><a href="emakumeak.html">Emakumeak</a></li>
-            <li><a href="sub18.html">Sub 18</a></li>
-            <li><a href="sub16.html">Sub 16</a></li>
+            <li class="menu"><a href="gizonak.html">Gizonak</a></li>
+            <li class="menu"><a href="emakumeak.html">Emakumeak</a></li>
+            <li class="menu"><a href="sub18.html">Sub 18</a></li>
+            <li class="menu"><a href="sub16.html">Sub 16</a></li>
           </ul>
         </li>
-        <li><a href="SaioaHasi.html"><img src="Irudiak" width="160" height="160" alt="Mi foto" /></a></li>
+        <li class="menu"><a href="bazkidea.html">Bazkideentzako inkesta</a></li>
+        
       </ul>
+      <ul class="proba">
+        <li class="ikono"><img src="Irudiak/icono/usuario-de-perfil.png" alt="Mi foto" /></a>
+          <ul>
+            <li class="menu"><a href="profila_editatu.html">Profila editatu</a></li>
+            <br>
+            <li class="menu"><a href="index.html">Itxi</a></li>
+          </ul>
+        </li>
+      </ul>
+      
     </nav>
   </header>
   <main>
