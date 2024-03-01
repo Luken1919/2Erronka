@@ -348,7 +348,7 @@
               $equipo = "Tolosa Union Rugby";
 
               // Consulta para seleccionar los partidos del equipo seleccionado
-              $sql = "SELECT * FROM Partidoa WHERE Txapelketa_Kod1 = 1 AND (Lokala = '$equipo' OR Bisitaria = '$equipo')";
+              $sql = "SELECT * FROM Partidoa WHERE Txapelketa_Kod1 = 3 AND (Lokala = '$equipo' OR Bisitaria = '$equipo')";
               $result = $conn->query($sql);
 
               // Comprobar si hay resultados
