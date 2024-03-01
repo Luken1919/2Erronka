@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header("Location: ../indexbaz.html");
         } else {
             // Credenciales incorrectas, redirecciona a la página de inicio de sesión con un mensaje de error
-            header("Location: login.php?error=credenciales_invalidas");
+            header("Location:../SaioaHasi.html");
         }
 
         // Cierra la conexión

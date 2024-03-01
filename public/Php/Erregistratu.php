@@ -27,7 +27,7 @@ $sql = "INSERT INTO Erabiltzailea (Izena, Abizena, ErabiltzaileIzena, HelbideEle
         VALUES ('$izena', '$abizena', '$erabiltzaileIzena', '$helbideElectronikoa', '$pasahitza')";
 
 if ($conexion->query($sql) === TRUE) {
-    header("Location: ../index.html");
+    header("Location: ../SaioaHasi.html");
     exit;
 } else {
     echo "Error: " . $sql . "<br>" . $conexion->error;
