@@ -23,8 +23,8 @@ $helbideElectronikoa = Garbitu($_POST['email']);
 $pasahitza = Garbitu($_POST['Pasahitza']);
 
 // Query para insertar datos
-$sql = "INSERT INTO Erabiltzailea (Izena, Abizena, ErabiltzaileIzena, HelbideElektronikoa, Pasahitza) 
-        VALUES ('$izena', '$abizena', '$erabiltzaileIzena', '$helbideElectronikoa', '$pasahitza')";
+$sql = "INSERT INTO Erabiltzailea (Izena, Abizena, ErabiltzaileIzena, HelbideElektronikoa, Pasahitza, Mota) 
+        VALUES ('$izena', '$abizena', '$erabiltzaileIzena', '$helbideElectronikoa', '$pasahitza', 'Arrunta')";
 
 if ($conexion->query($sql) === TRUE) {
     header("Location: ../index.html");
