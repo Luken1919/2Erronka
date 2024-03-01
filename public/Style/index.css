@@ -49,9 +49,8 @@ header {
   /* Estilos para los elementos de la lista dentro de la navegación */
   header nav ul li {
     display: inline-block;
-    padding: 9px;
+    padding: 10px;
     position: relative;
-    
   }
   
   /* Estilos para los enlaces dentro de la lista de navegación */
