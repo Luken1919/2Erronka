@@ -342,6 +342,28 @@
                 }
               }
 
+
+              // Equipo para el que quieres mostrar los partidos
+              $equipo = "Tolosa Union Rugby";
+
+              // Consulta para seleccionar los partidos del equipo seleccionado
+              $sql = "SELECT * FROM Partidoa WHERE Txapelketa_Kod1 = 1 AND (Lokala = '$equipo' OR Bisitaria = '$equipo')";
+              $result = $conn->query($sql);
+
+              // Comprobar si hay resultados
+              if ($result->num_rows > 0) {
+                // Mostrar los resultados en una tabla
+                echo "<table border='1'>";
+                echo "<tr><th>Data</th><th>Lokala</th><th>Pts_lokala</th><th>Pts_bisitaria</th><th>Bisitaria</th></tr>";
+                while ($row = $result->fetch_assoc()) {
+                  echo "<tr><td>" . $row["Data"] . "</td><td>" . $row["Lokala"] . "</td><td>" . $row["Pts_lokala"] . "</td><td>" . $row["Pts_bisitaria"] . "</td><td>" . $row["Bisitaria"] . "</td></tr>";
+                }
+                echo "</table>";
+              } else {
+                echo "No se encontraron partidos para el equipo seleccionado.";
+              }
+
+              // Cerrar conexión
               $conn->close();
               ?>
 
