@@ -13,7 +13,7 @@ header {
   justify-content: space-between; 
   background-color: #184563;
   padding: 0;
-
+  align-items: center;
 }
 
 
@@ -49,7 +49,7 @@ header {
   /* Estilos para los elementos de la lista dentro de la navegación */
   header nav ul li {
     display: inline-block;
-    padding: 5px;
+    padding: 9px;
     position: relative;
     
   }
@@ -63,25 +63,30 @@ header {
   /* Estilos para los enlaces al pasar el cursor sobre ellos */
   .menu:hover {
     color: black;
-    padding: 2px;
     background-color: #5B7384;
-  
   }
   
   #karratua {
-    width: 200px;
-    height: 200px;
-    background-color: trasparent; /* Color inicial */
+    width: 150px;
+    height: 35px;
+    background-color: #22638f; /* Color inicial */
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white; /* Color del texto */
+    color: rgb(122, 64, 64); /* Color del texto */
     transition: background-color 0.3s; /* Transición suave */
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 30px;
+    align-items: center;
   }
   
   #karratua:hover {
-    background-color: red; /* Cambiar a rojo cuando el ratón pase por encima */
+    background-color: darkblue; /* Cambiar a rojo cuando el ratón pase por encima */
+
+  }
+
+  header ul {
+    display: flex;
   }
   /* Estilos para los submenús desplegables */
   header nav ul li ul {
