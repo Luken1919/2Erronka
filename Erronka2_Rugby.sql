@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: mysql
--- Tiempo de generación: 01-03-2024 a las 12:42:39
+-- Tiempo de generación: 03-03-2024 a las 20:30:26
 -- Versión del servidor: 8.3.0
 -- Versión de PHP: 8.2.8
 
@@ -54,7 +54,37 @@ CREATE TABLE `Erabiltzailea` (
 --
 
 INSERT INTO `Erabiltzailea` (`Kod`, `Izena`, `Abizena`, `ErabiltzaileIzena`, `HelbideElektronikoa`, `Pasahitza`, `Mota`) VALUES
-(2, 'Admin', 'Admin', 'Admin', 'Admin@gmail.com', '1234', 'Admin');
+(2, 'Admin', 'Admin', 'Admin', 'Admin@gmail.com', '1234', 'Admin'),
+(4, 'Luken', 'Franco', 'Luka', 'lukenfranco@gmail.com', '1234', 'Arrunta');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `inkesta`
+--
+
+CREATE TABLE `inkesta` (
+  `id` int NOT NULL,
+  `aukera_diseinua` varchar(20) NOT NULL,
+  `ekitaldi_mota` text NOT NULL,
+  `hobekuntza_oharra` text NOT NULL,
+  `hobekuntza_entrenamenduak` varchar(50) NOT NULL,
+  `beste_ideiak` text NOT NULL,
+  `izena` varchar(50) NOT NULL,
+  `abizena` varchar(50) NOT NULL,
+  `korreoa` varchar(100) NOT NULL,
+  `dni` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Volcado de datos para la tabla `inkesta`
+--
+
+INSERT INTO `inkesta` (`id`, `aukera_diseinua`, `ekitaldi_mota`, `hobekuntza_oharra`, `hobekuntza_entrenamenduak`, `beste_ideiak`, `izena`, `abizena`, `korreoa`, `dni`) VALUES
+(1, 'aukera3', 'bilkura', 'Kaixo', 'material_berriak', 'Asas', 'Luken', 'Franco', 'apofiuasfsf@gmail.com', '34092858G'),
+(2, 'aukera3', 'bilkura', 'Kaixo', 'material_berriak', 'Asas', 'Luken', 'Franco', 'apofiuasfsf@gmail.com', '34092858G'),
+(3, 'aukera3', 'bilkura', 'Kaixo', 'material_berriak', 'Asas', 'Luken', 'Franco', 'apofiuasfsf@gmail.com', '34092858G'),
+(4, 'aukera3', 'bilkura', 'Kaixo', 'material_berriak', 'Asas', 'Luken', 'Franco', 'apofiuasfsf@gmail.com', '34092858G');
 
 -- --------------------------------------------------------
 
@@ -379,6 +409,12 @@ ALTER TABLE `Erabiltzailea`
   ADD PRIMARY KEY (`Kod`);
 
 --
+-- Indices de la tabla `inkesta`
+--
+ALTER TABLE `inkesta`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `Izan`
 --
 ALTER TABLE `Izan`
@@ -434,7 +470,13 @@ ALTER TABLE `Txapelketa`
 -- AUTO_INCREMENT de la tabla `Erabiltzailea`
 --
 ALTER TABLE `Erabiltzailea`
-  MODIFY `Kod` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `Kod` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT de la tabla `inkesta`
+--
+ALTER TABLE `inkesta`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de la tabla `Kategoria`

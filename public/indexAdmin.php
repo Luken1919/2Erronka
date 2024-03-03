@@ -9,33 +9,16 @@
 </head>
 <body>
   <header>
-    <h1><a href="index.html"><img src="Irudiak/logonew.png" width="160" height="160" alt="Mi foto" /></h1>
+    <h1><a href="indexAdmin.php.html"><img src="Irudiak/logonew.png" width="160" height="160" alt="Mi foto" /></h1>
     <nav>
       
       <ul>
-        <li class="menu"><a href="Albisteak.html">Taldearen albisteak</a></li>
-        <li class="menu"><a href="#">Historia</a>
-          <ul>
-            <li class="menu"><a href="Klubhistoria.html">Klubaren historia</a></li>
-            <li class="menu"><a href="Tituloak.html">Irabazitako tituluak</a></li>
-          </ul>
-        </li>
-        <li class="menu"><a href="#">Taldea</a>
-          <ul>
-            <li class="menu"><a href="gizonak.php">Gizonak</a></li>
-            <li class="menu"><a href="emakumeak.php">Emakumeak</a></li>
-            <li class="menu"><a href="sub18.php">Sub 18</a></li>
-            <li class="menu"><a href="sub16.php">Sub 16</a></li>
-          </ul>
-        </li>
-        <li class="menu"><a href="bazkidea.html">Bazkideentzako inkesta</a></li>
+        <li class="menu"><a href="inkesta_ikusi.php">Inkesten emaitzak</a></li>
         <li class="menu"><a href="Erabiltzaileak.php">Erabiltzaileak</a></li>
       </ul>
       <ul class="proba">
         <li class="ikono"><img src="Irudiak/icono/usuario-de-perfil.png" alt="Mi foto" /></a>
           <ul>
-            <li class="menu"><a href="profila_editatu.html">Profila editatu</a></li>
-            <br>
             <li class="menu"><a href="index.html">Itxi</a></li>
           </ul>
         </li>
