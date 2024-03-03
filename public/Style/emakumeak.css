@@ -82,6 +82,7 @@ header ul {
   display: flex;
 }
 
+
 /* Estilos para los submenús desplegables */
 header nav ul li ul {
   display: none;
@@ -102,7 +103,6 @@ header nav ul li:hover ul {
 .main{
   background-color: #578caf;
   color: rgb(255, 255, 255);
-
   }
 
   .tituloa{
@@ -137,37 +137,35 @@ footer {
   margin-top: auto;
   padding: 20px;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .kontaktatu{
-display: flex;
-text-align: left;
-
+  display: flex;
+  text-align: left;
+  
 }
 .kontaktatu img{
-height: 200px;
-width: 200px;
+  height: 200px;
+  width: 200px;
 }
 .kontaktatu div img{
-height: 17px;
-width: 17px;
+  height: 17px;
+  width: 17px;
 }
 .espaciofoot{
-margin-left: 10%;
+  margin-left: 10%;
 }
-
-
 
 
 
 .alineatu p {
-  margin: 0 10px; /* Espacio entre los elementos de texto */
+  margin: 0 25px; /* Espacio entre los elementos de texto */
 }
 
 .espacio{
   color: #22597e;
-  margin-top:13px;
+  margin-top:12px;
 }
 
 .azpikoa{
@@ -216,10 +214,16 @@ margin-left: 10%;
   justify-content: center;
   margin-left: 100px;
 }
+.columnahiru{
+  justify-content: center;
+  margin-top: 3%;
+
+}
 
 h1{
-  margin-left: 10%;
+
   color: #fff;
+  text-decoration: underline;
 }
 
 .mainbi{
@@ -229,9 +233,20 @@ h1{
   margin-left: -38%;
   }
 
-  .kidegotitulo{
-    margin-left: 34.4%;
+  .mainhiru{
+    background-color: #578caf;
+    color: rgb(255, 255, 255);
+    margin-top: 6%;
+    margin-left: 7%;
+    }
+
+  .jokalariaktitulo{
+    margin-left:8%;
   }
+  .kidegotitulo{
+    margin-left: 32.4%;
+  }
+
   @media (max-width: 768px) {
   
     header h1 .kontaktatu img {
@@ -265,3 +280,21 @@ h1{
       font-size: 16px;
     }
   }
+
+  tbody td{
+  background-color: antiquewhite;
+  color: #000;
+  }
+  tbody th{
+    background-color: rgb(173, 162, 144);
+    color: #000;
+  }
+
+  thead th{
+    background-color: rgb(173, 162, 144);
+    color: #000;
+  }
+  table{
+    margin-top: 50px;
+  }
+      

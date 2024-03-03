@@ -41,7 +41,7 @@
       <p><b>SUB18<br>GIZONAK</b></p>
       <div class="linea-horizontal"></div>
     </div>
-    <h1><u>Jokalariak</u></h1>
+    <h1 class="jokalariaktitulo"><u>Jokalariak</u></h1>
     <div class="columna">
 
       <div>
@@ -199,6 +199,7 @@
   <main class="mainbi">
 
     <h1 class="kidegotitulo"><u>Kidego teknikoak</u></h1>
+
     <div class="columna">
 
       <div>
@@ -245,7 +246,7 @@
           </div>
 
         </div>
-
+    </div>
 
         <div class="columnabi">
 
@@ -270,7 +271,9 @@
 
           </div>
         </div>
-        <div>
+      </main>
+      <main class="mainhiru">
+          <div class="columnahiru">
           <h1>Klasifikazioa</h1>
           <table>
             <thead>

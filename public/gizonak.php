@@ -42,7 +42,7 @@
       <p><b>1.TALDEA:<br>GIZONAK</b></p>
       <div class="linea-horizontal"></div>
     </div>
-    <h1><u>Jokalariak</u></h1>
+    <h1 class="jokalariaktitulo"><u>Jokalariak</u></h1>
 
     <div class="columna">
 
@@ -272,7 +272,9 @@
 
           </div>
         </div>
-        <div>
+        </main>
+        <main class="mainhiru">
+          <div class="columnahiru">
           <h1>Klasifikazioa</h1>
           <table>
             <thead>
