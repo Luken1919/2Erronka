@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <h1><a href="indexAdmin.php.html"><img src="Irudiak/logonew.png" width="160" height="160" alt="Mi foto" /></h1>
+    <h1><a href="indexAdmin.php"><img src="Irudiak/logonew.png" width="160" height="160" alt="Mi foto" /></h1>
     <nav>
       
       <ul>

@@ -29,10 +29,23 @@ header h1 img{
 }
 
 /* Estilos para la navegación en el encabezado */
+
 header nav {
   float: right;
   font-size: 20px;
   z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.ikono img{
+width: 55px;
+height: 55px;
+}
+
+.ikono{
+margin-left: 14px;
+margin-right: 40px; 
 }
 
 /* Estilos para la lista no ordenada dentro de la navegación */
