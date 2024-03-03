@@ -13,7 +13,7 @@
     <nav>
       
       <ul>
-        <li class="menu"><a href="Albisteak.html">Taldearen albisteak</a></li>
+        <li class="menu"><a href="Albisteakbaz.html">Taldearen albisteak</a></li>
         <li class="menu"><a href="#">Historia</a>
           <ul>
             <li class="menu"><a href="Klubhistoria.html">Klubaren historia</a></li>

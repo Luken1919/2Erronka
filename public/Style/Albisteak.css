@@ -31,6 +31,8 @@ header nav {
   float: right;
   font-size: 20px;
   z-index: 1;
+  display: flex;
+  align-items: center;
 }
 
 header nav ul {
@@ -161,4 +163,13 @@ footer {
   height: 17px;
   width: 17px;
  
+}
+.ikono img{
+  width: 55px;
+  height: 55px;
+}
+
+.ikono{
+  margin-left: 14px;
+  margin-right: 40px; 
 }
