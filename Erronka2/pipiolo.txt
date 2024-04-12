@@ -1,0 +1,6 @@
+INSERT INTO Partidoa (Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES ('a', 'd', NULL, NULL, NULL, NULL, 2);
+INSERT INTO Partidoa (Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES ('b', 'c', NULL, NULL, NULL, NULL, 2);
+INSERT INTO Partidoa (Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES ('a', 'c', NULL, NULL, NULL, NULL, 2);
+INSERT INTO Partidoa (Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES ('d', 'b', NULL, NULL, NULL, NULL, 2);
+INSERT INTO Partidoa (Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES ('a', 'b', NULL, NULL, NULL, NULL, 2);
+INSERT INTO Partidoa (Lokala, Bisitaria, Pts_lokala, Pts_bisitaria, Data, Hasiera_ordua, Txapelketa_kod) VALUES ('c', 'd', NULL, NULL, NULL, NULL, 2);
