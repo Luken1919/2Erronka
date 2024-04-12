@@ -6,7 +6,18 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * SQLManager klasea datuak datubasean txertatzeko eta fitxategian idazteko erabiliko da.
+ * 
+ */
 public class SQLManager {
+    
+    /** 
+     * Partiduen datuak datubasean sartzen ditu.
+     * @param taldeKop Talde kopurua
+     * @param txapelketaKodString Txapelketaren kodea String formatuan
+     * @param txtTaldeak Taldeen izenak gordetzeko JTextField arraya
+     */
     public void insertPartidoak(int taldeKop, String txapelketaKodString, JTextField[] txtTaldeak) {
         String[] taldeak = new String[taldeKop];
         for (int i = 0; i < taldeKop; i++) {
@@ -46,6 +57,11 @@ public class SQLManager {
         }
     }
 
+    /** 
+     * Txapelketaren kodea zenbakitan itzultzen du.
+     * @param txapelketaKodString Txapelketaren kodea String formatuan
+     * @return int Txapelketaren kodea
+     */
     private int getTxapelketaKod(String txapelketaKodString) {
         switch (txapelketaKodString) {
             case "1-Gizona":
@@ -61,5 +77,4 @@ public class SQLManager {
         }
     }
 
-	
 }

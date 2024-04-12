@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Liga","l":"LigaMain"},{"p":"Liga","l":"LigaUI"},{"p":"Liga","l":"PartiduDatuak"},{"p":"Liga","l":"SQLManager"}];updateSearchResults();

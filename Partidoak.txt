@@ -1,0 +1,15 @@
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('kaico', 'ondo', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('moduz', 'eguna', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('nik', 'zer', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('kaico', 'eguna', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('ondo', 'zer', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('moduz', 'nik', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('kaico', 'zer', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('eguna', 'nik', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('ondo', 'moduz', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('kaico', 'nik', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('zer', 'moduz', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('eguna', 'ondo', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('kaico', 'moduz', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('nik', 'ondo', 1);
+INSERT INTO Partidoa (Lokala, Bisitaria, Txapelketa_kod) VALUES ('zer', 'eguna', 1);

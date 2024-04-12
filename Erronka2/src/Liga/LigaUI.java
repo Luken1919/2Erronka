@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * LigaUI klasea interfaze grafikoa sortzeko erabiltzen da.
+ * 
+ */
 public class LigaUI {
     private JFrame frame;
     private JTextField[] txtTaldeak;
@@ -12,6 +16,9 @@ public class LigaUI {
     private JButton btnGorde;
     private SQLManager sqlManager;
 
+    /**
+     * LigaUI klasearen eraikitzailea.
+     */
     public LigaUI() {
         initialize();
         sqlManager = new SQLManager();
@@ -61,10 +68,18 @@ public class LigaUI {
         sortuGordeBotoia();
     }
 
+    /** 
+     * Frame-a itzultzen du.
+     * @return JFrame Frame-a
+     */
     public JFrame getFrame() {
         return frame;
     }
 
+    /** 
+     * Taldeak sortzen ditu.
+     * @param taldeKop Talde kopurua
+     */
     private void SortuTaldeak(int taldeKop) {
         if (txtTaldeak != null) {
             for (JTextField txtTaldea : txtTaldeak) {
@@ -96,6 +111,9 @@ public class LigaUI {
         frame.repaint();
     }
 
+    /**
+     * "Gorde" botoia sortzen du.
+     */
     private void sortuGordeBotoia() {
         if (btnGorde != null) {
             frame.getContentPane().remove(btnGorde);
@@ -116,7 +134,4 @@ public class LigaUI {
         frame.revalidate();
         frame.repaint();
     }
-    
-    
-    
 }
